@@ -5,18 +5,18 @@ layout: none
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>Sandstorm.io Blog</title>
-		<description>Latest updates on Sandstorm.io</description>		
-		<link>https://sandstorm.io</link>
+		<title>Sandstorm News</title>
+		<description>Latest updates on Sandstorm</description>		
+		<link>https://sandstorm.org</link>
 		<atom:link href="{{ site.baseurl }}feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
 				<description>{{ post.content | xml_escape }}</description>
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-                                <link>https://sandstorm.io{{ post.url }}</link>
+                                <link>https://sandstorm.org{{ post.url }}</link>
                                 <dc:creator>{{ post.author | xml_escape }}</dc:creator>
-                                <guid isPermaLink="true">https://sandstorm.io{{ post.url }}</guid>
+                                <guid isPermaLink="true">https://sandstorm.org{{ post.url }}</guid>
 			</item>
 		{% endfor %}
 	</channel>
