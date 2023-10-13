@@ -1,4 +1,12 @@
-This is the content of the [Sandstorm.io](https://sandstorm.io) web site.
+This is the content of the [Sandstorm.org](https://sandstorm.org) web site.
+
+### Deployment
+
+This repository is deployed with [Cloudflare Pages](https://pages.cloudflare.com/) using the following command:
+
+    bundler exec jekyll build
+
+### Building
 
 When checking out this repository, make sure to use `--recursive` to get submodules!
 
