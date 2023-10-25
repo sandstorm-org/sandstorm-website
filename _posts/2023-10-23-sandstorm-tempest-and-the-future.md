@@ -94,7 +94,7 @@ believe that you or your organization may be willing to fund this effort in larg
 or its entirety and would like additional details about the amount we would need to fund
 this, please [contact me directly][7].
 
-Sandstorm is approaching it's tenth birthday, and there's still nothing else like it.
+Sandstorm is approaching its tenth birthday, and there's still nothing else like it.
 Capability-based security and a tireless focus on abstracting away complexity from the
 user continue to make it the only platform which holds hope of letting *everyone*, not
 just developers and IT professionals, self-host. Thank you for your continuing interest
