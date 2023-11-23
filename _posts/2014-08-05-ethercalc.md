@@ -16,7 +16,7 @@ I was impressed. Sure enough, it's a spreadsheet editor, it does the things
 you expect spreadsheets to do, it supports real-time collaboration, and it's
 Free Software.
 
-![screenshot](https://sandstorm.io/apps/ethercalc.png)
+![screenshot](/apps/ethercalc.png)
 
 Jake professes to have had no idea what he was doing. "I have never even seen
 Node.js before, I don't even know JavaScript, and I have only a passing

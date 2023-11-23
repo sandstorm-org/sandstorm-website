@@ -31,5 +31,5 @@ vagrant-spk is also now a mature tool, having been used to package a large porti
 We have a list of improvements and features we are beginning to think about for vagrant-spk's future. As part of renewed community efforts to [revive the Sandstorm project][2], we are planning a regular cadence of releases for vagrant-spk. We have already begun designating goals for [vagrant-spk 1.1][3], which we'd like to deliver later this year.
 
 [1]: https://github.com/sandstorm-io/vagrant-spk/releases/tag/v1.0
-[2]: https://sandstorm.io/news/2020-02-03-reviving-sandstorm
+[2]: https://sandstorm.org/news/2020-02-03-reviving-sandstorm
 [3]: https://github.com/sandstorm-io/vagrant-spk/milestone/4

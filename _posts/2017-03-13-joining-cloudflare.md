@@ -5,7 +5,7 @@ author: Kenton Varda
 authorUrl: https://github.com/kentonv
 ---
 
-Recently, we announced that [Sandstorm is returning to its community roots](https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots), transitioning away from being a for-profit startup and towards being a community-effort, open source project. The Sandstorm team is committed to keep building Sandstorm in collaboration with our amazing community, and we will keep operating Sandstorm Oasis as a service. But, Sandstorm will no longer be our full-time jobs.
+Recently, we announced that [Sandstorm is returning to its community roots](/news/2017-02-06-sandstorm-returning-to-community-roots), transitioning away from being a for-profit startup and towards being a community-effort, open source project. The Sandstorm team is committed to keep building Sandstorm in collaboration with our amazing community, and we will keep operating Sandstorm Oasis as a service. But, Sandstorm will no longer be our full-time jobs.
 
 So, what will be?
 

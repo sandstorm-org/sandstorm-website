@@ -7,7 +7,7 @@ authorUrl: https://github.com/dwrensha
 
 Today we are releasing our port of [Groove Basin](http://groovebasin.com/), the ongoing product of [Andrew Kelley](http://andrewkelley.me/)'s three year quest to [build the ultimate music player](http://andrewkelley.me/post/quest-build-ultimate-music-player.html).
 
-<a href="https://sandstorm.io/apps/groovebasin-big.png"><img alt="Groove Basin Screenshot" src="https://sandstorm.io/apps/groovebasin.png"></a>
+<a href="/apps/groovebasin-big.png"><img alt="Groove Basin Screenshot" src="/apps/groovebasin.png"></a>
 
 With the Groove Basin app, you can upload music to a Sandstorm grain and listen to it from anywhere. Groove Basin provides loudness compensation, gapless playback, and support for a wide range of codecs, including all of the common ones like mp3, flac, ogg, m4a, aif, wav, and wma.
 

@@ -24,5 +24,5 @@ Hacker Slides relies on the Sandstorm APIs, which means Jack never had to write
 code to handle user login, access control, or handling multiple documents.
 
 He's generously made it open source and published it on the
-[Sandstorm App List](https://sandstorm.io/apps/), so you can install it with one
+[Sandstorm App List](https://apps.sandstorm.io), so you can install it with one
 click on your self-hosted Sandstorm instance. 

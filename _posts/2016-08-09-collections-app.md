@@ -65,7 +65,7 @@ piece of functionality. Collections need to be lightweight so that their integra
 of Sandstorm can feel seamless. Our primary strategy for achieving such performance has been to
 develop the Collections app using the [Rust programming language](https://www.rust-lang.org/),
 interfacing directly with Sandstorm's [ Cap'n Proto interfaces ](
-https://sandstorm.io/news/2014-12-15-capnproto-0.5 ).
+/news/2014-12-15-capnproto-0.5 ).
 Rust has worked well so far, and along the way we
 have produced some [libraries](https://crates.io/crates/sandstorm) and [examples](
 https://github.com/dwrensha/sandstorm-rawapi-example-rust) to help others also get started using it

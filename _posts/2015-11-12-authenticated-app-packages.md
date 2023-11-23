@@ -3,7 +3,7 @@ layout: post
 title: "Authenticated app packages on Sandstorm with PGP and Keybase"
 author: Drew Fisher
 authorUrl: https://github.com/zarvox
-imageUrl: https://sandstorm.io/news/images/app-authentication-post-preview.png
+imageUrl: https://sandstorm.org/news/images/app-authentication-post-preview.png
 ---
 
 I like to joke that Sandstorm is a security project posing as a

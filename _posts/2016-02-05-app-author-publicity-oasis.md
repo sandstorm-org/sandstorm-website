@@ -30,7 +30,7 @@ When your app is on the Sandstorm app market, it's naturally in front of people 
 
 Beyond that, every Sandstorm app is supported by the Sandstorm.io community team &mdash; Néna, Jade, and me.
 
-Néna supports open source web app developers by [providing graphics](https://sandstorm.io/news/2015-11-10-icons-spks-for-everyone#graphics-for-everyone) for any app with a Sandstorm package. Here are some of the graphics she's put together:
+Néna supports open source web app developers by [providing graphics](/news/2015-11-10-icons-spks-for-everyone#graphics-for-everyone) for any app with a Sandstorm package. Here are some of the graphics she's put together:
 
 <p style="text-align: center;"><img src="/news/images/2016-02-05-app-author-publicity-oasis/10-appdesigns.png" style="max-width: 50%;"></p>
 
@@ -42,9 +42,9 @@ All three of us spend every day thinking about how to get more people using the 
 
 - Write about new apps in our [monthly newsletter](https://sandstorm.io/#join-list), seen by thousands of subscribers.
 
-- Encourage Sandstorm community members to [give talks](https://sandstorm.io/news/2015-12-17-community-talks) about their favorite apps and [organize meetups.](http://www.meetup.com/topics/sandstorm/)
+- Encourage Sandstorm community members to [give talks](/news/2015-12-17-community-talks) about their favorite apps and [organize meetups.](http://www.meetup.com/topics/sandstorm/)
 
-- Write [blog posts about new apps](https://sandstorm.io/news/2016-01-22-8-new-open-source-apps), frequently seen on [Hacker News](https://news.ycombinator.com/item?id=11022993) (thanks to Andy for submitting the most recent one!).
+- Write [blog posts about new apps](/news/2016-01-22-8-new-open-source-apps), frequently seen on [Hacker News](https://news.ycombinator.com/item?id=11022993) (thanks to Andy for submitting the most recent one!).
 
 - Find organizations that care about specific apps, and explain to them in person how the community's apps plus self-hosting it would help the organization achieve its mission.
 

@@ -3,7 +3,7 @@ layout: post
 title: "How Sandstorm Works: Containerize Data, not Services"
 author: Kenton Varda
 authorUrl: https://github.com/kentonv
-imageUrl: https://sandstorm.io/images/how-it-works.png
+imageUrl: https://sandstorm.org/images/how-it-works.png
 ---
 
 <p style="text-align: center"><a href="/how-it-works"><img src="/images/how-it-works.png"></a></p>

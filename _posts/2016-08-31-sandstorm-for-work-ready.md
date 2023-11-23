@@ -3,7 +3,7 @@ layout: post
 title: "Sandstorm for Work is Ready"
 author: Kenton Varda
 authorUrl: https://github.com/kentonv
-imageUrl: https://sandstorm.io/news/images/sfw.png
+imageUrl: https://sandstorm.org/news/images/sfw.png
 ---
 
 Today, we're announcing that Sandstorm for Work is no longer in beta. Companies large and small -- ourselves included -- have been getting work done using Sandstorm for months. It's time for you to join us!
@@ -65,6 +65,6 @@ As always, once you've installed Sandstorm for Work, Sandstorm and apps will be 
 
 ### Still open source
 
-Sandstorm for Work is 100% open source software with a thriving community. That means it will never disappear or stop working. Read more in [our original announcement](https://sandstorm.io/news/2016-04-06-sandstorm-for-work).
+Sandstorm for Work is 100% open source software with a thriving community. That means it will never disappear or stop working. Read more in [our original announcement](/news/2016-04-06-sandstorm-for-work).
 
 <a class="linkbutton" href="https://sandstorm.io/get-feature-key">Get Sandstorm for Work &raquo;</a>

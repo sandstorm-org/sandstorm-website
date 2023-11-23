@@ -5,7 +5,7 @@ author: Jason Paryani
 authorUrl: https://github.com/jparyani
 ---
 
-Last week, I packaged [Laverna](https://laverna.cc/) for Sandstorm and added it to the [app list](https://sandstorm.io/apps/). You can now use this open source note-taking app from any Sandstorm instance with one click. In this post, I explain how a purely client-side note-taking app integrates with Sandstorm for storage.
+Last week, I packaged [Laverna](https://laverna.cc/) for Sandstorm and added it to the [app list](https://apps.sandstorm.io). You can now use this open source note-taking app from any Sandstorm instance with one click. In this post, I explain how a purely client-side note-taking app integrates with Sandstorm for storage.
 
 From the Laverna devs:
 

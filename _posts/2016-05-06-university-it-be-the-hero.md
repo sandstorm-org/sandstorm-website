@@ -33,7 +33,7 @@ of IT at my alma mater's CS department.
 If they ask you about security or privacy, you can tell them that Sandstorm is
 [self-hostable](https://sandstorm.io/install/) open source software, integrates with
 [LDAP/SAML single sign-on](https://sandstorm.io/business), and
-[automatically mitigates 95% of security issues, before they are even discovered](https://sandstorm.io/news/2016-02-29-security-track-record).
+[automatically mitigates 95% of security issues, before they are even discovered](/news/2016-02-29-security-track-record).
 For more on Sandstorm's security design, read our
 [security practices documentation](https://docs.sandstorm.io/en/latest/using/security-practices/).
 

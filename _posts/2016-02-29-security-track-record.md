@@ -21,10 +21,10 @@ the large number of issues. We also mitigated 21 CVEs in the Linux kernel to pre
 breakout.
 
 We built Sandstorm to create a [viable ecosystem for indie and open source web
-apps](https://sandstorm.io/news/2014-07-21-open-source-web-apps-require-federated-hosting). When
+apps](/news/2014-07-21-open-source-web-apps-require-federated-hosting). When
 server apps are as safe to run as apps on a phone, people will feel free to choose whatever software
 they like. Consider that some Sandstorm apps, like
-[Giftr](https://sandstorm.io/news/2016-02-25-giftr), are small and don't have as many people
+[Giftr](/news/2016-02-25-giftr), are small and don't have as many people
 checking the code for bugs. Sandstorm protects you when you use those apps, too.
 
 We know that security is risk-management, not binary. No software, Sandstorm included, will ever
@@ -67,9 +67,9 @@ If you prefer managed hosting, you can [make an account on Oasis](https://oasis.
 enjoy any of these apps or upload your own.
 
 Or you can run your own Sandstorm install. Over the past six months, we've integrated [free SSL
-certificates](https://sandstorm.io/news/2015-10-01-free-ssl-certificates) and
+certificates](/news/2015-10-01-free-ssl-certificates) and
 [cryptographically-verified automatic
-updates](https://sandstorm.io/news/2015-09-24-is-curl-bash-insecure-pgp-verified-install) into
+updates](/news/2015-09-24-is-curl-bash-insecure-pgp-verified-install) into
 self-hosted Sandstorm. As soon as someone installs Sandstorm for an organization, they can safely
 allow colleagues to choose their own tools. If you install Sandstorm for yourself, you can use the
 best indie web apps and let the platform handle security for you.  Get started on the [Sandstorm

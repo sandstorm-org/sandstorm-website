@@ -9,7 +9,7 @@ Today we're releasing a port of yet another crowd-funded open source web app,
 [MediaGoblin](http://mediagoblin.org). You can think of MediaGoblin as a
 Free Software alternative to Flickr, SoundCloud, YouTube, and others.
 
-![screenshot](https://sandstorm.io/apps/mediagoblin.png)
+![screenshot](/apps/mediagoblin.png)
 
 The app is on the app list now -- try it on the
 [demo server](https://demo.sandstorm.io).
