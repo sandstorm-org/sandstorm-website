@@ -31,7 +31,7 @@ This has been the result of quite a bit of effort on my part, including learning
 The gap between Organic Maps and Google Maps
 --------------------------------------------
 
-Organic Maps allows you to search for points of interest(link clarifying the term POI), navigate, and create bookmarks that can be imported or exported as kml(link) files. It does all of these on your phone without hitting the network.
+Organic Maps allows you to search for destinations, navigate, and create bookmarks that can be imported or exported as kml(link) files. It does all of these on your phone without hitting the network.
 
 (diagram of phone, arrows for bookmarks import/export, arrow for regions download from server over Internet)
 
