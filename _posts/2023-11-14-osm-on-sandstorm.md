@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Desert Atlas: A Self-Hosted OpenStreetMap App for Sandstorm
+title: "Desert Atlas: A Self-Hosted OpenStreetMap App for Sandstorm"
 author: Daniel Krol
 authorUrl: https://github.com/orblivion
 ---
