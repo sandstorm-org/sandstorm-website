@@ -33,7 +33,7 @@ The gap between Organic Maps and Google Maps
 
 Organic Maps allows you to search for destinations, navigate, and create bookmarks that can be imported or exported as kml(link) files. It does all of these on your phone without hitting the network.
 
-![Diagram of Organic Maps on a phone. One arrow to the phone indicates downloading map regions. Arrows in either direction indicate import/export of bookmarks."](/news/images/desert-atlas-diagram-organic-maps.png)
+![Diagram of Organic Maps on a phone. One arrow to the phone indicates downloading map regions. Arrows in either direction indicate import/export of bookmarks."](/news/images/desert-atlas-diagram-organic-maps.svg)
 
 The one concession to privacy is that the map data has to come from somewhere. The regions you download need to be downloaded, so Organic Maps' server knows what regions you're downloading. But this gives them much lower resolution than, say, requesting a specific intersection from a centralized map website.
 
