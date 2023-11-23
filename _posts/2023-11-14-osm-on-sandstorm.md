@@ -20,11 +20,11 @@ Sandstorm, meet OpenStreetMap. OpenStreetMap, meet Sandstorm.
 
 You may be familiar with OpenStreetMap applications for your phone such as Organic Maps that preserve privacy by downloading entire regions of the map at once and performing all other actions locally. Desert Atlas was inspired by this model. Unlike many OpenStreetMap web applications, the map regions are fully hosted in your grain, and downloaded with the same ease of point-and-click that you expect from Sandstorm. Unlike Organic Maps, Desert Atlas also allows you to easily share your map with a friend and plan a trip together, all on a private server that you trust.
 
-![Screenshots, downloading and searching in El Paso, Texas](/news/desert-atlas-el-paso-example.png)
+![Screenshots, downloading and searching in El Paso, Texas](/news/images/desert-atlas-el-paso-example.png)
 
 When you're ready to take your map on the road, Desert Atlas its also a companion for Organic Maps and OsmAnd. You can export your bookmarks from your sandstorm grain to your OSM app on your phone and navigate privately.
 
-![Screenshot, using "Export To App" feature to export bookmarks to Organic Maps"](/news/desert-atlas-export-to-app.png)
+![Screenshot, using "Export To App" feature to export bookmarks to Organic Maps"](/news/images/desert-atlas-export-to-app.png)
 
 This has been the result of quite a bit of effort on my part, including learning more about the OpenStreetMap ecosystem I'd never thought I would. But since I had to learn a lot of things, I didn't learn them very deeply. If you're inspired by this project and have deeper knowledge about some of its components, I've listed some low hanging fruit at the end of this post where you might be able to make a big impact pretty easily.
 
@@ -41,7 +41,7 @@ But what if you want to share the location of an event with a friend? Organic Ma
 
 This is where a private web app comes in handy. It sits on the Internet, which is less secure than Organic Maps, so you may not want to use it for everything. But if you trust the server, it can still be private. You can share it with chosen friends. When you're done planning, you can export it Organic Maps for better security.
 
-![Screenshot, list of Desert Atlas grains: "Favorite Seacoast Cafes", "Montréal trip", "Campsites for May 7, 2024", and "Parking Near My Apartment"](/news/desert-atlas-grain-listing.png)
+![Screenshot, list of Desert Atlas grains: "Favorite Seacoast Cafes", "Montréal trip", "Campsites for May 7, 2024", and "Parking Near My Apartment"](/news/images/desert-atlas-grain-listing.png)
 
 For comparison, I've looked at a couple options for self-hosted OSM. I haven't taken the time to try them out in depth, so apologies if I get something wrong.
 
