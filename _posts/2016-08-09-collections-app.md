@@ -72,7 +72,7 @@ https://github.com/dwrensha/sandstorm-rawapi-example-rust) to help others also g
 for Sandstorm app development.
 
 Whether or not you are a developer, now is an exciting time to
-[get involved](https://sandstorm.org/community)
+[get involved](/community)
 with Sandstorm. The powerbox is still in its early stages, and the
 Collections app is a hint at the kinds of things it will enable.
 So [try it out and let us know what you think](https://apps.sandstorm.io/app/s3u2xgmqwznz2n3apf30sm3gw1d85y029enw5pymx734cnk5n78h)!

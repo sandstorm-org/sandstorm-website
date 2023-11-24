@@ -48,7 +48,7 @@ All three of us spend every day thinking about how to get more people using the 
 
 - Find organizations that care about specific apps, and explain to them in person how the community's apps plus self-hosting it would help the organization achieve its mission.
 
-The Sandstorm <a href="https://sandstorm.org/community">community</a> as a whole will give you feedback on your app if you email the <a href="https://groups.google.com/forum/#!forum/sandstorm-dev">sandstorm-dev group</a>. Check out these <a href="https://groups.google.com/forum/#!topic/sandstorm-dev/YNiAzlqON40">recent</a> <a href="https://groups.google.com/forum/#!topic/sandstorm-dev/nVu9VBNFNUM">threads</a> to see how it works.
+The Sandstorm <a href="/community">community</a> as a whole will give you feedback on your app if you email the <a href="https://groups.google.com/forum/#!forum/sandstorm-dev">sandstorm-dev group</a>. Check out these <a href="https://groups.google.com/forum/#!topic/sandstorm-dev/YNiAzlqON40">recent</a> <a href="https://groups.google.com/forum/#!topic/sandstorm-dev/nVu9VBNFNUM">threads</a> to see how it works.
 
 I want self-hosting to be a meaningful alternative to software as a service. You can be part of that movement by packaging your app for Sandstorm. If your app is written using Meteor, I'll even create the [initial packaging](one-click-installers-for-everyone).
 
