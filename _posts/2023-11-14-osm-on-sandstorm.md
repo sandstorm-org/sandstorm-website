@@ -5,7 +5,7 @@ author: Daniel Krol
 authorUrl: https://github.com/orblivion
 ---
 
-*My name is [Dan](https://danielkrol.com). This is my first time posting on the Sandstorm blog. I learned about Sandstorm almost a decade ago. I was interested in resiliency and was looking at easy self-hosting solutions. I thought it would be really cool to run Sandstorm "off the grid", even on a mesh network. We have a lot of applications easy to install, but I thought it would be cool to bring easy hosting of Wikipedia and other open data to Sandstorm, so I packaged an application called Kiwix(link to app market) (which is an awesome project [in its own right](https://kiwix.org)).*
+*Hi, my name is [Dan](https://danielkrol.com). This is my first time posting on the Sandstorm blog. I learned about Sandstorm almost a decade ago. I was interested in resiliency and was looking at easy self-hosting solutions. I thought it would be really cool to run Sandstorm "off the grid", even on a mesh network. We have a lot of applications easy to install, but I thought it would be cool to bring easy hosting of Wikipedia and other open data to Sandstorm, so I packaged an application called Kiwix(link to app market) (which is an awesome project [in its own right](https://kiwix.org)).*
 
 *As I was wrapping up with that, I decided that some day I would do the same for [OpenStreetMap](https://openstreetmap.org). But unlike with Kiwix, I needed to create a new application. Years later, here we are.*
 
