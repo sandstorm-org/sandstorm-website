@@ -67,5 +67,5 @@ this happen, get in touch on the [sandstorm-dev mailing list][3] or the
 #sandstorm IRC channel on libera.chat.
 
 [1]: https://github.com/zenhack/powerbox-http-proxy
-[2]: /2015-06-10-network-access-permission-android-vs-sandstorm
+[2]: /news/2015-06-10-network-access-permission-android-vs-sandstorm
 [3]: https://groups.google.com/forum/#!forum/sandstorm-dev
