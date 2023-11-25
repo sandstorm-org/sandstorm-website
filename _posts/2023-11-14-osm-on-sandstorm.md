@@ -51,7 +51,7 @@ Facilmap(link) for YunoHost and Nextcloud Maps(link) are made to be easy to set 
 
 Desert Atlas takes a much more stripped down approach than Headway. A lot fewer moving parts, and built for Sandstorm. I'm not aware of any other offering that is quite as easy to spin up (thanks to Sandstorm), point and click to download the regions you need, and gives you this level of privacy.
 
-![Diagram of Sandstorm+Desert Atlas, arrow for bookmarks export to Organic Maps, arrow for regions download from Linode S3, arrows for authenticated browsers."](/news/images/desert-atlas-diagram-organic-maps.png)
+![Diagram of Sandstorm+Desert Atlas, arrow for bookmarks export to Organic Maps, arrow for regions download from Linode S3, arrows for authenticated browsers."](/news/images/desert-atlas-diagram-sandstorm.png)
 
 The Simplest Version of Everything
 ----------------------------------
