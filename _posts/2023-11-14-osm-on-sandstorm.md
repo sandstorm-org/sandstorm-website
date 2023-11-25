@@ -31,11 +31,9 @@ This has been the result of quite a bit of effort on my part, including learning
 The gap between Organic Maps and Google Maps
 --------------------------------------------
 
-Organic Maps allows you to search for destinations, navigate, and create bookmarks that can be imported or exported as kml(link) files. It does all of these on your phone without hitting the network.
+Organic Maps allows you to search for destinations, navigate, and create bookmarks that can be imported or exported as kml(link) files. It does all of these on your phone without hitting the network. The one concession to privacy is that the map data has to come from somewhere. The regions you download need to be downloaded, so Organic Maps' server knows what regions you're downloading. But this gives them much lower resolution than, say, requesting a specific intersection from a centralized map website.
 
 ![Diagram of Organic Maps on a phone. One arrow to the phone indicates downloading map regions. Arrows in either direction indicate import/export of bookmarks."](/news/images/desert-atlas-diagram-organic-maps.png)
-
-The one concession to privacy is that the map data has to come from somewhere. The regions you download need to be downloaded, so Organic Maps' server knows what regions you're downloading. But this gives them much lower resolution than, say, requesting a specific intersection from a centralized map website.
 
 But what if you want to share the location of an event with a friend? Organic Maps has a convenient way to do this, but it points you to its own (centralized) website. What if you want to plan a trip with a friend? You might find yourself going to Google Maps or some other centralized service, even if you export the results to Organic Maps.
 
