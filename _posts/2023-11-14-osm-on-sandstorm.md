@@ -33,7 +33,7 @@ The gap between Organic Maps and Google Maps
 
 Organic Maps allows you to search for destinations, navigate, and create bookmarks that can be imported or exported as kml(link) files. It does all of these on your phone without hitting the network.
 
-![Diagram of Organic Maps on a phone. One arrow to the phone indicates downloading map regions. Arrows in either direction indicate import/export of bookmarks."](/news/images/desert-atlas-diagram-organic-maps.svg)
+![Diagram of Organic Maps on a phone. One arrow to the phone indicates downloading map regions. Arrows in either direction indicate import/export of bookmarks."](/news/images/desert-atlas-diagram-organic-maps.png)
 
 The one concession to privacy is that the map data has to come from somewhere. The regions you download need to be downloaded, so Organic Maps' server knows what regions you're downloading. But this gives them much lower resolution than, say, requesting a specific intersection from a centralized map website.
 
@@ -51,7 +51,7 @@ Facilmap(link) for YunoHost and Nextcloud Maps(link) are made to be easy to set 
 
 Desert Atlas takes a much more stripped down approach than Headway. A lot fewer moving parts, and built for Sandstorm. I'm not aware of any other offering that is quite as easy to spin up (thanks to Sandstorm), point and click to download the regions you need, and gives you this level of privacy.
 
-(diagram of Sandstorm+Desert Atlas, arrow for bookmarks export to Organic Maps, arrow for regions download from Linode S3, arrows for authenticated browsers)
+![Diagram of Sandstorm+Desert Atlas, arrow for bookmarks export to Organic Maps, arrow for regions download from Linode S3, arrows for authenticated browsers."](/news/images/desert-atlas-diagram-organic-maps.png)
 
 The Simplest Version of Everything
 ----------------------------------
