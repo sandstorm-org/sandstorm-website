@@ -35,7 +35,7 @@ three
 Sandstorm apps actively maintained by their authors: draw.io,
 EtherCalc, and LibreBoard. Those apps now appear
 at the top of the
-[Sandstorm app list](https://sandstorm.io/apps/). In the long run,
+[Sandstorm app list](https://apps.sandstorm.io). In the long run,
 the best way
 for a Sandstorm
 port to stay up-to-date is for the

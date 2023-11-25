@@ -13,9 +13,9 @@ Like the existing [HackerCMS](/news/2014-06-04-self-service-web-publishing.html)
 
 Moreover, the app's integration with Sandstorm's login system makes it easy to collaborate with multiple authors; you can add new authors simply by sharing a link.
 
-<a href="https://sandstorm.io/apps/wordpress1-big.png"><img alt="WordPress Screenshot" src="https://sandstorm.io/apps/wordpress1.png"></a>
+<a href="/apps/wordpress1-big.png"><img alt="WordPress Screenshot" src="/apps/wordpress1.png"></a>
 
-<a href="https://sandstorm.io/apps/wordpress2-big.png"><img alt="WordPress Screenshot" src="https://sandstorm.io/apps/wordpress2.png"></a>
+<a href="/apps/wordpress2-big.png"><img alt="WordPress Screenshot" src="/apps/wordpress2.png"></a>
 
 A few features of WordPress require us to make more progress on Sandstorm before we can support them. We would like to allow the app to make remote HTTP requests -- a feature that would simplify the process of installing add-ons and importing media content -- but we also want to tightly control that capability, so that an evil plugin can't leak data. This will require the Powerbox. We would also like to integrate WordPress's comment system with SandStorm's web publishing, but before that's possible Sandstorm apps need to be able to export public HTTP APIs.
 

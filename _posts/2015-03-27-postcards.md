@@ -3,7 +3,7 @@ layout: post
 title: Postcards from Boston
 author: Asheesh Laroia
 authorUrl: https://github.com/paulproteus
-imageUrl: https://sandstorm.io/news/images/boston-nightscout.jpg
+imageUrl: https://sandstorm.org/news/images/boston-nightscout.jpg
 ---
 
 

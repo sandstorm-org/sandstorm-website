@@ -2,7 +2,7 @@
 layout: page
 id: how-it-works
 title: "How Sandstorm Works: Containerize data, not services"
-imageUrl: https://sandstorm.io/images/how-it-works.png
+imageUrl: https://sandstorm.org/images/how-it-works.png
 ---
 
 <header>

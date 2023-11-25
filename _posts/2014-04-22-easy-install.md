@@ -74,7 +74,7 @@ Some awesome contributors have written/ported a few new Sandstorm apps:
   I tried is looking pretty good.
 
 Install these and other apps to your Sandstorm instance from
-[the app list](https://sandstorm.io/apps).
+[the app list](https://apps.sandstorm.io).
 
 Porting apps is still a somewhat weird and ad hoc process. Usually the code
 doesn't need to change much, but figuring out the app's dependencies for

@@ -21,7 +21,7 @@ We have more updates coming soon, including Mailpile, Groovebasin, and ShareLaTe
 
 We are also excited to say that our EtherCalc port will henceforth be directly maintained by the upstream maintainer, Audrey Tang.
 
-We don't have automatic "push" updates yet (they're coming), so to update your copy of a Sandstorm app, you must go to the [app list](https://sandstorm.io/apps) and install it again. Sandstorm will recognize that you're installing an update and will upgrade your existing files.
+We don't have automatic "push" updates yet (they're coming), so to update your copy of a Sandstorm app, you must go to the [app list](https://apps.sandstorm.io) and install it again. Sandstorm will recognize that you're installing an update and will upgrade your existing files.
 
 ### Meeting Notes
 

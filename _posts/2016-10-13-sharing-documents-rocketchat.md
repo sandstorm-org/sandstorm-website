@@ -3,12 +3,12 @@ layout: post
 title: "Sharing documents with a Rocket.Chat room in Sandstorm"
 author: Jade Q. Wang
 authorUrl: https://github.com/jadeqwang
-imageUrl: https://sandstorm.io/news/images/rc6_shared.png
+imageUrl: https://sandstorm.org/news/images/rc6_shared.png
 ---
 
 I'm sharing a pro-tip today because I like making sure that everyone gets the most productivity they can out of Sandstorm. 
 
-Let's say I want to share a grain (e.g., a document, spreadsheet, git repository, or a [Collection](https://sandstorm.io/news/2016-08-09-collections-app)) with a group of colleagues who are already in the same [Rocket.Chat](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0) chatroom. To do so, I first click the + icon in Rocket.Chat. 
+Let's say I want to share a grain (e.g., a document, spreadsheet, git repository, or a [Collection](/news/2016-08-09-collections-app)) with a group of colleagues who are already in the same [Rocket.Chat](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0) chatroom. To do so, I first click the + icon in Rocket.Chat. 
 
 ![Click on the + button in Rocket Chat](/news/images/rc_button.png)
 

@@ -21,7 +21,7 @@ is worth a thousand words, a demo is worth ten thousand.
 
 We've posted updates to several apps with bug fixes and other improvements.
 Currently, in order to update an app, you must re-install it from the
-[app list](https://sandstorm.io/apps). (Push updates for apps are on our
+[app list](https://apps.sandstorm.io). (Push updates for apps are on our
 todo list.) So, if you've installed any of the following, install them again.
 
 * **Mailpile:** Fixed bug where sent mail sometimes wasn't saved.

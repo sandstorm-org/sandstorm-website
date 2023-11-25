@@ -7,7 +7,7 @@ authorUrl: https://github.com/kentonv
 
 Today we're releasing our port of [Roundcube](http://roundcube.net), another open source e-mail web app. You can go install it from the app list now, either on your own Sandstorm server or [on our demo](https://demo.sandstorm.io).
 
-![Screenshot](https://sandstorm.io/apps/roundcube.png)
+![Screenshot](/apps/roundcube.png)
 
 To this you might ask: What happened to [Mailpile](/news/2014-07-07-mailpile.html)?
 

@@ -68,8 +68,8 @@ committed to spending what time I can making Sandstorm's vision a
 reality. If you want to help, join us in the #sandstorm IRC channel
 on libera.chat, and sign up for the [sandstorm-dev mailing list][8].
 
-[1]: https://sandstorm.io/news/2017-02-06-sandstorm-returning-to-community-roots
-[2]: https://sandstorm.io/news/2017-10-28-i18n
+[1]: /news/2017-02-06-sandstorm-returning-to-community-roots
+[2]: /news/2017-10-28-i18n
 [3]: https://groups.google.com/d/msg/sandstorm-dev/cVPH014H2iY/8Em-dPDyBQAJ
 [4]: https://github.com/zenhack/hello-sandstorm-oauth
 [5]: https://docs.sandstorm.io/

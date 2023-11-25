@@ -23,7 +23,7 @@ For a programming meetup, attendees would be especially interested if you demo
 Sandstorm with an app on their platform. For a Node meetup, think EtherCalc.
 For Python (or data scientists!), think IPython Notebook. For Ruby, GitLab.
 For Rust, Acronymy. For Meteor, Telescope. (Check out the
-[Sandstorm app list](https://sandstorm.io/apps/) if you need more ideas!)
+[Sandstorm app list](https://apps.sandstorm.io) if you need more ideas!)
 
 If you work with physicists or mathematicians, show them ShareLaTeX.
 

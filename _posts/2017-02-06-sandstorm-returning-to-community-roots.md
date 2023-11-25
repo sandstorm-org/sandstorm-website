@@ -47,7 +47,7 @@ As a result of this change, the following has happened today:
 
 Want to see Sandstorm succeed? Then, contribute!
 
-* If you'd like to help build Sandstorm, sign up on [the sandstorm-dev mailing list](https://groups.google.com/group/sandstorm-dev) and join us on IRC at #sandstorm on Freenode. There is lots to do, from hardcore systems hacking to community organizing to tasks that require nothing but enthusiasm. For ideas on how you can help, check out the [community page](https://sandstorm.io/community) and the [contributing guide](https://github.com/sandstorm-io/sandstorm/blob/master/CONTRIBUTING.md).
+* If you'd like to help build Sandstorm, sign up on [the sandstorm-dev mailing list](https://groups.google.com/group/sandstorm-dev) and join us on IRC at #sandstorm on Freenode. There is lots to do, from hardcore systems hacking to community organizing to tasks that require nothing but enthusiasm. For ideas on how you can help, check out the [community page](/community) and the [contributing guide](https://github.com/sandstorm-io/sandstorm/blob/master/CONTRIBUTING.md).
 
 * If you have more money than time and would like to support the project financially, the best way to do it is to sign up for a paid account on [Oasis](https://oasis.sandstorm.io).
 
