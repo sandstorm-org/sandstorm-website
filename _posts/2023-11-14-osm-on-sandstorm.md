@@ -5,7 +5,7 @@ author: Daniel Krol
 authorUrl: https://github.com/orblivion
 ---
 
-*Hi, my name is [Dan](https://danielkrol.com). This is my first time posting on the Sandstorm blog. I learned about Sandstorm almost a decade ago. I was interested in resiliency and was looking at easy self-hosting solutions. I thought it would be really cool to run Sandstorm "off the grid", even on a mesh network. We have a lot of applications easy to install, but I thought it would be cool to bring easy hosting of Wikipedia and other open data to Sandstorm, so I packaged an application called Kiwix(link to app market) (which is an awesome project [in its own right](https://kiwix.org)).*
+*Hi, my name is [Dan](https://danielkrol.com). This is my first time posting on the Sandstorm blog. I learned about Sandstorm almost a decade ago. I was interested in resiliency and was looking at easy self-hosting solutions. I thought it would be really cool to run Sandstorm "off the grid", even on a mesh network. We have a lot of applications easy to install, but I thought it would be cool to bring easy hosting of Wikipedia and other open data to Sandstorm, so I packaged an application called [Kiwix](https://apps.sandstorm.io/app/5uh349d0kky2zp5whrh2znahn27gwha876xze3864n0fu9e5220h) (which is an awesome project [in its own right](https://kiwix.org)).*
 
 *As I was wrapping up with that, I decided that some day I would do the same for [OpenStreetMap](https://openstreetmap.org). But unlike with Kiwix, I needed to create a new application. Years later, here we are.*
 
@@ -31,23 +31,23 @@ This has been the result of quite a bit of effort on my part, including learning
 The gap between Organic Maps and Google Maps
 --------------------------------------------
 
-Organic Maps allows you to search for destinations, navigate, and create bookmarks that can be imported or exported as kml(link) files. It does all of these on your phone without hitting the network. The one concession to privacy is that the map data has to come from somewhere. The regions you download need to be downloaded, so Organic Maps' server knows what regions you're downloading. But this gives them much lower resolution than, say, requesting a specific intersection from a centralized map website.
+Organic Maps allows you to search for destinations, navigate, and create bookmarks that can be imported or exported as [kml](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) files. It does all of these on your phone without hitting the network. The one concession to privacy is that the map data has to come from somewhere. The regions you download need to be downloaded. Organic Maps' server knows what regions you're downloading, but they're each roughly the size of a small country. This gives them much lower resolution than, say, requesting a specific intersection from a centralized map website.
 
 ![Diagram of Organic Maps on a phone. One arrow to the phone indicates downloading map regions. Arrows in either direction indicate import/export of bookmarks."](/news/images/desert-atlas-diagram-organic-maps.png)
 
 But what if you want to share the location of an event with a friend? Organic Maps actually has a convenient (centralized) website for sharing locations from the app with friends, but this requires revealing the specific location to them. Or what if you want to plan a trip with a friend? You might find yourself going to Google Maps or some other centralized service, even if you export the results to Organic Maps.
 
-This is where a private web app comes in handy. It sits on the Internet, which is less secure than Organic Maps, so you may not want to use it for everything. But if you trust the server, it can still be private. You can share it with chosen friends. When you're done planning, you can export it Organic Maps for better security.
+This is where a private web app comes in handy. It sits on the Internet, which is less secure than Organic Maps, so you may not want to use it for everything. But if you trust the server, it can still be private. You can share it with chosen friends, and plan together if you want. When you're done, you can each export it Organic Maps for navigation, and better convenience and security.
 
 ![Screenshot, list of Desert Atlas grains: "Favorite Seacoast Cafes", "Montréal trip", "Campsites for May 7, 2024", and "Parking Near My Apartment"](/news/images/desert-atlas-grain-listing.png)
 
-For comparison, I've looked at a couple options for self-hosted OSM. I haven't taken the time to try them out in depth, so apologies if I get something wrong.
+For comparison, I've looked at a couple other options for self-hosted OSM. I haven't taken the time to try them out in depth, so apologies if I get something wrong.
 
-Facilmap(link) for YunoHost and Nextcloud Maps(link) are made to be easy to set up, and have similar use cases to Desert Atlas. They let you bookmark, plan trips, and share the results, I presume all privately. But rather than downloading regions like Organic Maps, they appear to show the underlying maps "on demand", similar to looking at openstreetmap.org on a browser. Again, this leaks some information to openstreetmap.org.
+[Facilmap](https://yunohost.org/en/app_facilmap) for YunoHost and [Nextcloud Maps](https://github.com/nextcloud/maps) are made to be easy to set up and have similar use cases to Desert Atlas. They let you bookmark, plan trips, and share the results, all privately. But rather than downloading regions like Organic Maps, [they get underlying map data from and sends search terms to](https://github.com/nextcloud/maps/issues/733) third-party services (such as openstreetmap.org), which [leaks some](https://docs.facilmap.org/users/privacy/#layers) usage information.
 
 [Headway](https://about.maps.earth/) is a project that solves this privacy problem. It installs the "full stack" of self-hosted OSM relatively easily. As you'll see below, the OSM ecosystem has a lot going on, and Headway simplifies things quite a bit. However, it uses Docker, which (in the humble opinion of Sandstorm fans) is still not as simple as Sandstorm. (I have seen a little discussion about porting it to YunoHost, but it hasn't happened yet).
 
-Desert Atlas takes a much more stripped down approach than Headway. A lot fewer moving parts, and built for Sandstorm. I'm not aware of any other offering that is quite as easy to spin up (thanks to Sandstorm), point and click to download the regions you need, and gives you this level of privacy.
+Desert Atlas takes a much more stripped down approach than Headway. Built for Sandstorm, with a lot fewer moving parts. I'm not aware of any other offering that is quite as easy to spin up (thanks to Sandstorm), point and click to download the regions you need, and gives you this level of privacy.
 
 ![Diagram of Sandstorm+Desert Atlas, arrow for bookmarks export to Organic Maps, arrow for regions download from Linode S3, arrows for authenticated browsers."](/news/images/desert-atlas-diagram-sandstorm.png)
 
