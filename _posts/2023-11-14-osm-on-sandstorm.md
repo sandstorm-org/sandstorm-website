@@ -16,7 +16,7 @@ Sandstorm, meet OpenStreetMap. OpenStreetMap, meet Sandstorm.
 
 [Desert Atlas](https://apps.sandstorm.io/app/e5eaqnrqfrhgax1awtgw9uqayg42kcen2gkpynjs3j5mww7w3rp0) is the world map for Sandstorm. With Desert Atlas, you can privately collaborate with friends to search for destinations and save them as bookmarks for use on the go.
 
-[<img src="/news/images/tryitnow_purp1.svg" alt="Try It Now!" title="" width="400px" />](https://alpha.sandstorm.io/install/78a293b39105616839079fc550032b5b?url=https://app-index.sandstorm.io/packages/78a293b39105616839079fc550032b5b)
+[<img src="/news/images/tryitnow_purp1.svg" alt="Try It Now!" title="" width="400px" />](https://demo.sandstorm.io/appdemo/e5eaqnrqfrhgax1awtgw9uqayg42kcen2gkpynjs3j5mww7w3rp0)
 
 You may be familiar with OpenStreetMap applications for your phone such as Organic Maps that preserve privacy by downloading entire regions of the map at once and performing all other actions locally. Desert Atlas was inspired by this model. Unlike many OpenStreetMap web applications, the map regions are fully hosted in your grain, and downloaded with the same ease of point-and-click that you expect from Sandstorm. Unlike Organic Maps, Desert Atlas also allows you to easily share your map with a friend and plan a trip together, all on a private server that you trust.
 
