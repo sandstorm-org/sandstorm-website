@@ -33,7 +33,7 @@ The gap between Organic Maps and Google Maps
 
 Organic Maps allows you to search for destinations, navigate, and create bookmarks that can be imported or exported as [kml](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) files. It does all of these on your phone without hitting the network. The one concession to privacy is that the map data has to come from somewhere. The regions you download need to be downloaded. Organic Maps' server knows what regions you're downloading, but they're each roughly the size of a small country. This gives them much lower resolution than, say, requesting a specific intersection from a centralized map website.
 
-![Diagram of Organic Maps on a phone. One arrow to the phone indicates downloading map regions. Arrows in either direction indicate import/export of bookmarks."](/news/images/desert-atlas-diagram-organic-maps.png)
+![Diagram of Organic Maps: One arrow from Map Data server for Organic Maps to Organic Maps phone app indicates downloading of map regions. Arrows in either direction indicate import/export of bookmarks from Organic Maps phone app and unspecified means of sharing with friends."](/news/images/desert-atlas-diagram-organic-maps.png)
 
 But what if you want to share the location of an event with a friend? Organic Maps actually has a convenient (centralized) website for sharing locations from the app with friends, but this requires revealing the specific location to them. Or what if you want to plan a trip with a friend? You might find yourself going to Google Maps or some other centralized service, even if you export the results to Organic Maps.
 
@@ -49,7 +49,7 @@ For comparison, I've looked at a couple other options for self-hosted OSM. I hav
 
 Desert Atlas takes a much more stripped down approach than Headway. Built for Sandstorm, with a lot fewer moving parts. I'm not aware of any other offering that is quite as easy to spin up (thanks to Sandstorm), point and click to download the regions you need, and gives you this level of privacy.
 
-![Diagram of Sandstorm+Desert Atlas, arrow for bookmarks export to Organic Maps, arrow for regions download from Linode S3, arrows for authenticated browsers."](/news/images/desert-atlas-diagram-sandstorm.png)
+![Diagram of Sandstorm + Desert Atlas: One arrow for bookmarks export from phone web browser to Organic Maps. One arrow from Map Data Server for Desert Atlas to Sandstorm Server indicates downloading of map regions. Arrows in both directions indicating all user activity being sent between web browsers and Sandstorm Server."](/news/images/desert-atlas-diagram-sandstorm.png)
 
 The Simplest Version of Everything
 ----------------------------------
