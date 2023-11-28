@@ -82,28 +82,26 @@ In addition to searching within downloaded regions, I decided that it would be u
 
 ### Splitting the world
 
-Organic Maps is generally split by "administrative region". It could be a country, state, or metro area, depending on how dense the information is. Ideally I would have done this.
+Organic Maps is generally split by "administrative region". It could be a country, state, or metro area, depending on how dense the information is. Ideally Desert Atlas would work the same way.
 
-There's a service called Geofabrik that offers such regions for download, but they have a rate limit that's prohibitive for this purpose. They also have a publicly available geojson file that defines their regions. However the exact process they use to slice the planet with this definition is not publicly available. Given enough time I could figure it out.
+There's a service called Geofabrik that offers up-to-date raw OSM protobuf data split by regions in such a way. However, they have a download rate limit that I decided was prohibitive for this purpose, so I sought out to download OSM's `planet.osm.pbf` and split it myself. Geofabrik also has a publicly available geojson file that defines the regions they offer for download, which I could in principle use to do the same splitting myself. However, the exact process that they use to slice the planet with this json file is not publicly available. In the long run I would like to figure this out.
 
-However, I found a shortcut and I decided to take it. I download OSM's own planet.osm.pbf and split it using a tool called Tile Splitter(link https://www.mkgmap.org.uk/doc/splitter.html) from mkgmap (In fact I split twice, because of memory issues). This tool splits into rectangles targeting a maximum raw data size per region. Unfortunately the render and search extractions done for Desert Atlas do not correspond 1:1 with the raw data, so the downloadable regions in Desert Atlas vary quite a bit in size.
-
-This is also a shortcut because it made the UI for downloading regions a lot simpler.
+For now, I found a "good enough" shortcut and I decided to take it. I split `planet.osm.pbf` using a tool called [splitter](https://www.mkgmap.org.uk/doc/splitter.html) from mkgmap. This tool splits into rectangles targeting a maximum raw data size per region. Unfortunately the render and search extractions done for Desert Atlas do not correspond 1:1 with the raw data, so the downloadable regions in Desert Atlas vary quite a bit in size.
 
 ### UI
 
-This one was straightforward. Leaflet is the go-to web UI framework for OpenStreetMap. It's very nice. There's a plugin for search called Leaflet-Search that worked for my needs.
+This part was straightforward. As mentioned above, I used Leaflet, which is the go-to web UI framework for OpenStreetMap. It's extensible and worked well for me. I also used a plugin called [Leaflet-Search](https://github.com/stefanocudini/leaflet-search) that I was able to connect to the simple Python based backend and query the sqlite database. 
 
 ### So, in a nutshell...
 
 Periodic map generation process (currently ~2.5 days)
 * Download planet.osm.pbf (world map raw protobuf)
-* plant.osm.pbf -> rectangular region osm.pbf files (using mkgmap)
-* each region osm.pbf -> region .pmtiles with protomaps schema (using tilemaker and go-protomaps, with thanks to shortbread schema)
-* each region osm.pbf -> region .csv with search data (pyosmium)
+* plant.osm.pbf -> rectangular region osm.pbf files (using splitter from mkgmap)
+* each region osm.pbf -> region .pmtiles with protomaps schema (using tilemaker and go-protomaps, with thanks to Geofabrik for the shortbread schema)
+* each region osm.pbf -> region .csv with search data (using pyosmium)
 * each region .pmtiles + .csv -> region .tar.gz -> upload to S3
 
-On Sandstorm, each grain is pre-loaded with large towns thanks to data taken from GeoNames. It downloads whichever regions the user asks for. For each region, the pmtiles file is ready to use as-is by protomaps.js and Leaflet, and the search CSV file is imported into the sqlite+fts5 search database, with Leaflet-Search providing the UI.
+On the user's Sandstorm server, each grain is pre-loaded with large towns thanks to data taken from GeoNames. It downloads whichever regions the user asks for. For each region, the pmtiles file is ready to use as-is by protomaps.js and Leaflet, and the search CSV file is imported into the sqlite+fts5 search database, with Leaflet-Search providing the UI.
 
 Getting involved
 ----------------
