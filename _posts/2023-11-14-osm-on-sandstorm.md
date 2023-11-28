@@ -86,7 +86,7 @@ Organic Maps is generally split by "administrative region". It could be a countr
 
 There's a service called Geofabrik that offers up-to-date raw OSM protobuf data split by regions in such a way. However, they have a download rate limit that I decided was prohibitive for this purpose, so I sought out to download OSM's `planet.osm.pbf` and split it myself. Geofabrik also has a publicly available geojson file that defines the regions they offer for download, which I could in principle use to do the same splitting myself. However, the exact process that they use to slice the planet with this json file is not publicly available. In the long run I would like to figure this out.
 
-For now, I found a "good enough" shortcut and I decided to take it. I split `planet.osm.pbf` using a tool called [splitter](https://www.mkgmap.org.uk/doc/splitter.html) from mkgmap. This tool splits into rectangles targeting a maximum raw data size per region. Unfortunately the render and search extractions done for Desert Atlas do not correspond 1:1 with the raw data, so the downloadable regions in Desert Atlas vary quite a bit in size.
+For now, I found a "good enough" shortcut and I decided to take it. I split `planet.osm.pbf` using a tool called [splitter](https://www.mkgmap.org.uk/doc/splitter.html) from mkgmap. This tool splits raw OSM data into rectangles targeting a maximum raw data size per region. Unfortunately the render and search extractions done for Desert Atlas do not correspond 1:1 with the raw data, so the downloadable regions in Desert Atlas vary quite a bit in size, but I am shooting for about the same region size as Organic Maps.
 
 ### UI
 
