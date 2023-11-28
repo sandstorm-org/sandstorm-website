@@ -108,8 +108,6 @@ Getting involved
 
 If you're an OSM developer, you may be facepalming right now. But you also know that OSM has a big, confusing ecosystem, with many ways of doing the same thing. This was my first exposure to a lot of it. This was a lot of work, and I wanted to forge a reasonable but efficient path to a minimum viable product.
 
-It's a modest submission of a usable proof of concept. I didn't spend much time getting hung up on finding the very best way of doing everything on the first try. But at this point I'm wide open to replacing any part of this with something better.
+It's a modest submission of a usable proof of concept. I didn't spend much time getting hung up on finding the very best way of doing everything on the first try, but at this point I'm wide open to improvements, including replacing any part of this with something better.
 
-I've [identified some areas](https://github.com/orblivion/desert-atlas/wiki/Where-to-help) that I think could be low hanging fruit, especially for people who can teach me about areas I'm less famailar with (OSM, UI, front end, etc). Hit me up if you'd like to help!
-
-(Mention the general areas - how it looks, search, general cleanup?)
+I've [identified some areas](https://github.com/orblivion/desert-atlas/wiki/Where-to-help) that I think could be low hanging fruit, especially for people who can teach me about areas I'm less famailar with (tiles, search, UI, front end) or just general improvements (rewriting the server in Go). Hit me up if you'd like to help!
