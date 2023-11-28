@@ -95,7 +95,7 @@ This part was straightforward. As mentioned above, I used Leaflet, which is the 
 ### So, in a nutshell...
 
 Periodic map generation process (currently ~2.5 days)
-* Download planet.osm.pbf (world map raw protobuf)
+* Download `planet.osm.pbf` (world map raw protobuf)
 * plant.osm.pbf -> rectangular region osm.pbf files (using splitter from mkgmap)
 * each region osm.pbf -> region .pmtiles with protomaps schema (using tilemaker and go-protomaps, with thanks to Geofabrik for the shortbread schema)
 * each region osm.pbf -> region .csv with search data (using pyosmium)
