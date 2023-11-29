@@ -18,15 +18,15 @@ Sandstorm, meet [OpenStreetMap](https://openstreetmap.org). OpenStreetMap, meet 
 
 [<img src="/news/images/tryitnow_purp1.svg" alt="Try It Now!" title="" width="400px" />](https://demo.sandstorm.io/appdemo/e5eaqnrqfrhgax1awtgw9uqayg42kcen2gkpynjs3j5mww7w3rp0)
 
-You may be familiar with OpenStreetMap applications for your phone such as Organic Maps that preserve privacy by downloading entire regions of the map at once and performing all other actions locally. Desert Atlas was inspired by this model. Unlike many OpenStreetMap web applications, the map regions are fully hosted in your grain, and downloaded with the same ease of point-and-click that you expect from Sandstorm. Unlike Organic Maps, Desert Atlas also allows you to easily share your map with a friend and plan a trip together, all on a private server that you trust.
+You may be familiar with OSM applications for your phone such as [Organic Maps](https://organicmaps.app/) that download entire regions of the map at once and let you do everything else privately. Desert Atlas was inspired by this model. Unlike many OpenStreetMap web applications, the map regions are fully hosted in your grain, and downloaded with the same ease of point-and-click that you expect from Sandstorm. Unlike Organic Maps, Desert Atlas also allows you to easily share your map with a friend and plan a trip together, all on a private server that you trust.
 
 ![Screenshots, downloading and searching in El Paso, Texas](/news/images/desert-atlas-el-paso-example.png)
 
-When you're ready to take your map on the road, Desert Atlas its also a companion for Organic Maps and OsmAnd. You can export your bookmarks from your sandstorm grain to your OSM app on your phone and navigate privately.
+When you're ready to take your map on the road, Desert Atlas its also a companion for Organic Maps (and [OsmAnd](https://osmand.net/)). You can export your bookmarks from your sandstorm grain to your OSM phone app and navigate privately.
 
 ![Screenshot, using "Export To App" feature to export bookmarks to Organic Maps"](/news/images/desert-atlas-export-to-app.png)
 
-This has been the result of quite a bit of effort on my part, including learning more about the OpenStreetMap ecosystem I'd never thought I would. But since I had to learn a lot of things, I didn't learn them very deeply. If you're inspired by this project and have deeper knowledge about some of its components, I've listed some low hanging fruit at the end of this post where you might be able to make a big impact pretty easily.
+This has been the result of quite a bit of effort on my part, including learning more about the OpenStreetMap ecosystem than I'd ever thought I would. But since I had to learn a lot of things, I didn't learn them very deeply. If you're inspired by this project and have deeper knowledge about some of its components, I've listed some low hanging fruit at the end of this post where you might be able to make a big impact pretty easily.
 
 The gap between Organic Maps and Google Maps
 --------------------------------------------
