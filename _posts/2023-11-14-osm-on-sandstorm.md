@@ -22,7 +22,7 @@ You may be familiar with OSM phone applications like [Organic Maps](https://orga
 
 ![Screenshots, downloading and searching in El Paso, Texas](/news/images/desert-atlas-el-paso-example.png)
 
-When you're ready to take your map on the road, Desert Atlas its also a companion for Organic Maps (and [OsmAnd](https://osmand.net/)). You can export your bookmarks from your sandstorm grain to your OSM phone app to navigate privately.
+When you're ready to take your map on the road, Desert Atlas is also a companion for Organic Maps (and [OsmAnd](https://osmand.net/)). You can export your bookmarks from your sandstorm grain to your OSM phone app to navigate privately.
 
 ![Screenshot, using "Export To App" feature to export bookmarks to Organic Maps"](/news/images/desert-atlas-export-to-app.png)
 
