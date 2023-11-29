@@ -5,7 +5,7 @@ author: Daniel Krol
 authorUrl: https://github.com/orblivion
 ---
 
-*Hi, my name is [Dan](https://danielkrol.com). This is my first time posting on the Sandstorm blog, but I got involved with Sandstorm almost a decade ago. I imagined a day when open data would be easily deployed via Sandstorm onto a mesh network (a lofty goal, I know), so I [created a package](https://apps.sandstorm.io/app/5uh349d0kky2zp5whrh2znahn27gwha876xze3864n0fu9e5220h) for an existing application called [Kiwix](https://kiwix.org) for easy hosting of sites like Wikipedia.*
+*Hi, my name is [Dan](https://danielkrol.com). This is my first time posting on the Sandstorm blog. I got involved with Sandstorm almost a decade ago. I imagined a day when open data would be easily deployed via Sandstorm onto a mesh network (a lofty goal, I know), so I [created a package](https://apps.sandstorm.io/app/5uh349d0kky2zp5whrh2znahn27gwha876xze3864n0fu9e5220h) for an existing application called [Kiwix](https://kiwix.org) for easy hosting of sites like Wikipedia.*
 
 *With this vision in mind, today I'm announcing the result of a more ambitious effort.*
 
