@@ -106,7 +106,7 @@ On the user's Sandstorm server, each grain is pre-loaded with large towns thanks
 Getting involved
 ----------------
 
-If you're an OSM developer, you may be facepalming right now. But you also know that OSM has a big, confusing ecosystem, with many ways of doing the same thing. This was my first exposure to a lot of it. This was a lot of work, and I wanted to forge a reasonable but efficient path to a minimum viable product.
+If you're an OSM developer, you may or may not be facepalming right now. Likely some part of this could have been done in a better way. But you also know that OSM has a big, confusing ecosystem, with many ways of doing the same thing. This was my first exposure to a lot of it. This was a lot of work, and I wanted to forge a reasonable but efficient path to a minimum viable product.
 
 It's a modest submission of a usable proof of concept. I didn't spend much time getting hung up on finding the very best way of doing everything on the first try, but at this point I'm wide open to improvements, including replacing any part of this with something better.
 
