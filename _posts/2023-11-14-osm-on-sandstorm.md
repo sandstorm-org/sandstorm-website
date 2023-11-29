@@ -56,7 +56,7 @@ The Simplest Version of Everything
 
 So how does this actually work? I kept it simple, which is not to say easy! The implementation wasn't that hard. The hard part was finding which tools to use and how to intergrate them. All the heavy lifting was already implemented by those tools. Big thanks to all those who created them.
 
-OpenStreetMap is, among other things, a canonical database representing the world map. It's openly available and editable like Wikipedia. OSM applications such as Desert Atlas need to download this data in one way or another. Application creators usually provide their own copy of the data in a custom format that their apps download. They also use their own servers to spare the resources of openstreetmap.org. OpenStreetMap provides periodic snapshots of their data as one giant protobuf file that application creators can download to make periodic snapshots of the data available to their users.
+OpenStreetMap is, among other things, a canonical database representing the world map. It's openly available and editable like Wikipedia. OSM applications such as Desert Atlas need to download this data in one way or another. Application creators usually provide their own copy of the data in a custom format that their apps download. They also use their own servers to spare the resources of openstreetmap.org. OpenStreetMap provides periodic snapshots of its database as one giant protobuf file known as `planet.osm.pbf`. Application creators can download it and extract what they need to make periodic snapshots of the data available to their users.
 
 In general, the two parts of the OSM app experience are tiles and search.
 
