@@ -37,7 +37,7 @@ Organic Maps allows you to search for destinations, navigate, and create bookmar
 
 But what if you want to bookmark some spots for a night on the town and share them with some friends? Exporting and sending bookmark files is a bit inconvenient. There's a web-based sharing feature for Organic Maps, but it reveals the location to Organic Maps' server. If you want to plan the evening together, sharing KML files is especially incovenient. You might find yourself using a different centalized service (Google Maps comes to mind but there are OSM-based options), even if you impport the results to Organic Maps.
 
-This is where a private web app comes in handy. It sits on the Internet, which is less secure than Organic Maps, so you may not want to use it for everything. But if you trust the server, it can still be private. You can share it with chosen friends, and plan together if you want. When you're done, you can each export it Organic Maps for navigation, and better convenience and security.
+This is where a private web app comes in handy. Instead of collaborating and sharing on a centralized service, you can use Desert Atlas on a trusted Sandstorm server. When you're done, you can each export the locations to Organic Maps for navigation and convenience. (And if you're not sharing or collaborating, you can always stick to Organic Maps. It's probably still more secure than a private web server sitting on the Internet.)
 
 ![Screenshot, list of Desert Atlas grains: "Favorite Seacoast Cafes", "Montréal trip", "Campsites for May 7, 2024", and "Parking Near My Apartment"](/news/images/desert-atlas-grain-listing.png)
 
