@@ -5,14 +5,14 @@ author: Daniel Krol
 authorUrl: https://github.com/orblivion
 ---
 
-*Hi, my name is [Dan](https://danielkrol.com). This is my first time posting on the Sandstorm blog. I learned about Sandstorm almost a decade ago while I was looking into easy self-hosting solutions. I was interested in resiliency and independence. I thought it would be really cool to run Sandstorm "off the grid", ideally on a mesh network. Sandstorm has a lot of easy-to-install tools, but an independent network still needs the world's knowledge. I wanted to bring easy hosting of Wikipedia and other open data websites to Sandstorm, so I packaged an application called [Kiwix](https://apps.sandstorm.io/app/5uh349d0kky2zp5whrh2znahn27gwha876xze3864n0fu9e5220h) (which is an awesome project [in its own right](https://kiwix.org)).*
+*Hi, my name is [Dan](https://danielkrol.com). This is my first time posting on the Sandstorm blog, but I got involved with Sandstorm almost a decade ago. I imagined a day when open data would be easily deployed via Sandstorm onto a mesh network (a lofty goal, I know), so I [created a package](https://apps.sandstorm.io/app/5uh349d0kky2zp5whrh2znahn27gwha876xze3864n0fu9e5220h) for an existing application called [Kiwix](https://kiwix.org) for easy hosting of sites like Wikipedia.*
 
-*As I was wrapping up with that, I decided that some day I would do the same for [OpenStreetMap](https://openstreetmap.org), though unlike with Kiwix I decided that I needed to create a new application. Years later, I finally got around to it.*
+*With this vision in mind, today I'm announcing the result of a more ambitious effort.*
 
 Introducing Desert Atlas
 ------------------------
 
-Sandstorm, meet OpenStreetMap. OpenStreetMap, meet Sandstorm.
+Sandstorm, meet [OpenStreetMap](https://openstreetmap.org). OpenStreetMap, meet Sandstorm.
 
 [Desert Atlas](https://apps.sandstorm.io/app/e5eaqnrqfrhgax1awtgw9uqayg42kcen2gkpynjs3j5mww7w3rp0) is the world map for Sandstorm. With Desert Atlas, you can privately collaborate with friends to search for destinations and save them as bookmarks for use on the go.
 
