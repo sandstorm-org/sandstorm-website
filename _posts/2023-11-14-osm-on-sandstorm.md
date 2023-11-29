@@ -41,6 +41,8 @@ This is where a private web app comes in handy. Instead of collaborating and sha
 
 ![Screenshot, list of Desert Atlas grains: "Favorite Seacoast Cafes", "Montréal trip", "Campsites for May 7, 2024", and "Parking Near My Apartment"](/news/images/desert-atlas-grain-listing.png)
 
+### Some Similar Offerings
+
 For comparison, I have looked at a couple other options for self-hosted OSM. I have not taken the time to try them out in depth, so apologies if I get something wrong.
 
 [Facilmap](https://yunohost.org/en/app_facilmap) for YunoHost and [Nextcloud Maps](https://github.com/nextcloud/maps) are made to be easy to set up and have similar use cases to Desert Atlas. They let you bookmark, plan trips, and share the results, all privately. But rather than downloading regions like Organic Maps, [they get underlying map data from and sends search terms to](https://github.com/nextcloud/maps/issues/733) third-party services (such as openstreetmap.org), which [leaks some](https://docs.facilmap.org/users/privacy/#layers) usage information.
