@@ -18,11 +18,11 @@ Sandstorm, meet [OpenStreetMap](https://openstreetmap.org). OpenStreetMap, meet 
 
 [<img src="/news/images/tryitnow_purp1.svg" alt="Try It Now!" title="" width="400px" />](https://demo.sandstorm.io/appdemo/e5eaqnrqfrhgax1awtgw9uqayg42kcen2gkpynjs3j5mww7w3rp0)
 
-You may be familiar with OSM phone applications like [Organic Maps](https://organicmaps.app/) that download entire regions of the map at once so you can search and browse privately. Desert Atlas was inspired by this model. Unlike many OpenStreetMap web applications, the map regions are fully hosted in your grain, and downloaded with the same ease of point-and-click that you expect from Sandstorm. Unlike Organic Maps, Desert Atlas also allows you to easily share your map with a friend and plan a trip together, all on a private server that you trust.
+You may be familiar with OSM phone applications like [Organic Maps](https://organicmaps.app/) that download entire regions of the map at once so you can search and browse privately. Desert Atlas was inspired by this model. Unlike many OpenStreetMap web applications, the map regions are fully hosted in your grain, and downloaded with the same ease of point-and-click that you expect from Sandstorm. Unlike Organic Maps, Desert Atlas makes it easy to share your map with a friend or plan a trip together, all on a private server that you trust.
 
 ![Screenshots, downloading and searching in El Paso, Texas](/news/images/desert-atlas-el-paso-example.png)
 
-When you're ready to take your map on the road, Desert Atlas its also a companion for Organic Maps (and [OsmAnd](https://osmand.net/)). You can export your bookmarks from your sandstorm grain to your OSM phone app and navigate privately.
+When you're ready to take your map on the road, Desert Atlas its also a companion for Organic Maps (and [OsmAnd](https://osmand.net/)). You can export your bookmarks from your sandstorm grain to your OSM phone app to navigate privately.
 
 ![Screenshot, using "Export To App" feature to export bookmarks to Organic Maps"](/news/images/desert-atlas-export-to-app.png)
 
