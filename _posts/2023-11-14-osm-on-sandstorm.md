@@ -64,23 +64,23 @@ In general, the two parts of the OSM app experience are tiles and search.
 
 ### Tile format
 
-The traditional OpenStreetMap stack includes a tile server which imports the raw protobuf data into a postrgres database and generates a grid of square png files for every zoom level. Postgres is hard to get running on Sandstorm because it is made to be multi-user (though at one point I actually got a tile server to run and generate tiles in a test environment!). Alternately, as the provider of the map data for the app, I could have taken the path of pre-generating the png files for the app to download, but I suspect the resulting file size would be massive.
+The traditional OpenStreetMap stack includes a tile server which imports the raw protobuf data into a postrgres database and generates a grid of square png files for every zoom level. Postgres is hard to get running on Sandstorm because it is made to be multi-user (though at one point I actually got a tile server to run and generate tiles in a test environment!) Alternately, as the provider of the map data for the app, I could have taken the path of pre-generating the png files for the app to download, but I suspect the resulting file size would be massive.
 
 Then one day on Hacker News I saw something called [Protomaps](https://protomaps.com). It's a project for vector-based tiles that render in the browser. It uses a file format called pmtiles. A single pmtiles file represents a region of the map at all zoom levels. You can use [protomaps.js](https://github.com/protomaps/protomaps-leaflet) along with the [Leaflet UI framework](http://github.com/Leaflet/Leaflet) to view it. As you scroll or zoom, it makes range requests for the specific subset of the file that it needs to display it. No need for a database, or to generate anything within the Sandstorm app. Each downloadable region of the map has one pmtiles file.
 
-And how do we create these pmtiles files? I did not want to regularly copy the entire world map from protomaps.com. I set out to generate them myself from raw OSM data. The best way I could find was to first convert them to another vector format called mbtiles using a tool called [tilemaker](https://github.com/systemed/tilemaker/), and then from mbtiles to pmtiles using [go-pmtiles](https://github.com/protomaps/go-pmtiles) from the Protomaps project.
+And how do we create these pmtiles files? I did not want to regularly copy the entire world map from the Protomaps project. I set out to generate them myself from raw OSM data. The best way I could find was to first convert them to another vector format called mbtiles using a tool called [tilemaker](https://github.com/systemed/tilemaker/), and then from mbtiles to pmtiles using [go-pmtiles](https://github.com/protomaps/go-pmtiles) from the Protomaps project.
 
 ### Tile Schema
 
-I generated my first pmtiles file and... nothing showed up. It turns out that on top of tile file formats, there is a concept of a *schema*. Protomaps.js turns out to have its own schema. Tilemaker uses a lua script to determine the schema of the mbtiles file it creates. The default lua script that comes with tilemaker is based on the OpenMapTiles schema. I initially set out to start with this lua script and edit it until the data looked like the Protomaps schema. However, I was a little nervous because I was advised that OpenMapTiles has an uncertain intellectual property situation. I may or may not have misunderstood or overreacted, but at any rate I had an alternative. The folks at [Geofabrik](https://www.geofabrik.de/) created their own schema called [Shortbread](https://github.com/shortbread-tiles/shortbread-docs) that is licensed CC0 and comes with its own lua script for tilemaker. To steer clear of any concern over IP issues in creating my lua script to generate files in the Protomaps.js schema, I started from Shortbread.
+I generated my first pmtiles file and... nothing showed up. It turns out that on top of tile file formats, there is a concept of a *schema*. Protomaps.js turns out to have its own schema. Tilemaker uses a lua script to determine the schema of the mbtiles file it creates. The default lua script that comes with tilemaker is based on the OpenMapTiles schema. I initially set out to start with this lua script and edit it until the data it produced looked like the Protomaps schema. However, I was a little nervous because I was advised that OpenMapTiles has an uncertain intellectual property situation. I may or may not have misunderstood or overreacted, but at any rate I had an alternative. The folks at [Geofabrik](https://www.geofabrik.de/) created their own schema called [Shortbread](https://github.com/shortbread-tiles/shortbread-docs) that is licensed CC0 and comes with its own lua script for tilemaker. To steer clear of any concern over IP issues in creating my lua script to generate files in the Protomaps.js schema, I started from Shortbread.
 
 ### Search Data
 
-The standard option for an OpenStreetMap search service is called [Nominatim](https://nominatim.org/). It uses ElasticSearch under the hood, which again is a bit heavy duty for Sandstorm. I asked myself, "what is the sqlite of search?" It turns out the answer is... sqlite! There is a [plugin called fts5](https://sqlite.org/fts5.html) that performs reasonably well on Desert Atlas for searching names in the database. Desert Atlas does not yet support address search, so it remains to be seen whether fts5 can be used for that.
+The standard option for an OpenStreetMap search service is called [Nominatim](https://nominatim.org/). It uses ElasticSearch under the hood, which again is a bit heavy duty for Sandstorm. I asked myself, "what is the sqlite of search?" It turns out the answer is... sqlite! There is a [plugin called fts5](https://sqlite.org/fts5.html) that performs reasonably well on Desert Atlas for searching names in the database. Desert Atlas does not yet support address search, so it remains to be seen how well suited fts5 is for that.
 
 To generate the search database, I [decide what I want to extract](https://github.com/orblivion/desert-atlas/blob/658b5f3fb4fbd5dc86d2c4cf27b3a7d1200cba6f/generate-data/extract_search.py) from the raw protobuf for a given region using [pyosmium](https://osmcode.org/pyosmium/). The result is saved to a CSV that gets bundled with the pmtiles file for the same region. When a user downloads a region inside Desert Atlas, the CSV is imported into the grain's sqlite search database.
 
-In addition to searching within downloaded regions, I decided that it would be useful to have cities and large towns built into the app so that the user can jump to their city by searching *before* they download any regions. This makes it easier for users to orient themselves and find which region they want to download. For this part, I used a pre-baked non-OSM database called GeoNames(http://download.geonames.org/export/dump/) as a shortcut.
+In addition to searching within downloaded regions, I decided that it would be useful to have cities and large towns built into the app so that the user can search for their city *before* they download any regions. This makes it easier for users to orient themselves and find which region they want to download. For this part, I used a pre-baked non-OSM database called [GeoNames](http://download.geonames.org/export/dump/) as a shortcut.
 
 ### Splitting the world
 
@@ -98,12 +98,16 @@ This part was straightforward. As mentioned above, I used Leaflet, which is the 
 
 Periodic map generation process (currently ~2.5 days)
 * Download `planet.osm.pbf` (world map raw protobuf)
-* plant.osm.pbf -> rectangular region osm.pbf files (using splitter from mkgmap)
-* each region osm.pbf -> region .pmtiles with protomaps schema (using tilemaker and go-protomaps, with thanks to Geofabrik for the shortbread schema)
+* `planet.osm.pbf` -> rectangular region osm.pbf files (using splitter from mkgmap)
+* each region osm.pbf -> region .pmtiles with protomaps schema (using tilemaker and go-protomaps, with thanks to Geofabrik for the shortbread schema which I edited until it became the protomaps schema)
 * each region osm.pbf -> region .csv with search data (using pyosmium)
 * each region .pmtiles + .csv -> region .tar.gz -> upload to S3
 
-On the user's Sandstorm server, each grain is pre-loaded with large towns thanks to data taken from GeoNames. It downloads whichever regions the user asks for. For each region, the pmtiles file is ready to use as-is by protomaps.js and Leaflet, and the search CSV file is imported into the sqlite+fts5 search database, with Leaflet-Search providing the UI.
+App packaging
+* bundle geojson files for low-res world and USA maps
+* bundle cities and large towns from GeoNames
+
+When a grain is created on the user's Sandstorm server, the bundled GeoNames data is imported into the grain's sqlite+fts5 search database. The bundled geojson world and USA maps display thanks to Leaflet. The grain downloads whichever regions the user asks for from S3. For each region, the pmtiles file is ready to use as-is by protomaps.js and Leaflet, and the search CSV file is imported into the search database, with Leaflet-Search providing the UI.
 
 Getting involved
 ----------------
