@@ -7,7 +7,7 @@ authorUrl: https://github.com/orblivion
 
 *Hi, my name is [Dan](https://danielkrol.com). This is my first time posting on the Sandstorm blog. I got involved with Sandstorm almost a decade ago. I imagined a day when open data would be easily deployed via Sandstorm onto a mesh network (a lofty goal, I know), so I [created a package](https://apps.sandstorm.io/app/5uh349d0kky2zp5whrh2znahn27gwha876xze3864n0fu9e5220h) for an existing application called [Kiwix](https://kiwix.org) for easy hosting of sites like Wikipedia.*
 
-*With this vision in mind, today I'm announcing the result of a more ambitious effort.*
+*I still have this vision in mind. Today, I'm announcing the result of a more ambitious effort.*
 
 Introducing Desert Atlas
 ------------------------
@@ -18,7 +18,7 @@ Sandstorm, meet [OpenStreetMap](https://openstreetmap.org). OpenStreetMap, meet 
 
 [<img src="/news/images/tryitnow_purp1.svg" alt="Try It Now!" title="" width="400px" />](https://demo.sandstorm.io/appdemo/e5eaqnrqfrhgax1awtgw9uqayg42kcen2gkpynjs3j5mww7w3rp0)
 
-You may be familiar with OSM phone applications like [Organic Maps](https://organicmaps.app/) that download entire regions of the map at once so you can search and browse privately. Desert Atlas was inspired by this model. Unlike many OpenStreetMap web applications, the map regions are fully hosted in your grain, and downloaded with the same ease of point-and-click that you expect from Sandstorm. Unlike Organic Maps, Desert Atlas makes it easy to share your map with a friend or plan a trip together, all on a private server that you trust.
+You may be familiar with OSM phone applications like [Organic Maps](https://organicmaps.app/) that download entire regions of the map at once so you can search and browse privately. Desert Atlas was inspired by this model. Unlike many OSM web applications, the map regions are fully hosted in your Sandstorm grain, and downloaded with the same ease of point-and-click that you expect from Sandstorm. Unlike Organic Maps, Desert Atlas makes it easy to share your map with a friend or plan a trip together on a private server that you trust.
 
 ![Screenshots, downloading and searching in El Paso, Texas](/news/images/desert-atlas-el-paso-example.png)
 
@@ -31,7 +31,7 @@ This has been the result of quite a bit of effort on my part, including learning
 The gap between Organic Maps and Google Maps
 --------------------------------------------
 
-Organic Maps allows you to search for destinations, navigate, and create bookmarks that can be imported or exported as [KML files](https://en.wikipedia.org/wiki/Keyhole_Markup_Language). It does all of these on your phone without hitting the network. The one concession to privacy is that the map data has to come from somewhere. The underlying map regions need to be downloaded initially, and updated periodically. Organic Maps' server knows what regions you are downloading, but they are each roughly the size of a small country, and it happens maybe once a week. This gives them much lower resolution than, say, requesting a specific intersection on demand from a centralized map website.
+Organic Maps allows you to search for destinations, navigate, and create bookmarks that can be imported or exported as [KML files](https://en.wikipedia.org/wiki/Keyhole_Markup_Language). It does all of these on your phone without hitting the network. The one concession to privacy is that the map data has to come from somewhere. The underlying map regions need to be downloaded initially and updated periodically. Organic Maps' server knows what regions you are downloading, but they are each roughly the size of a small country, and it happens maybe once a week. This gives them much lower resolution than, say, requesting a specific intersection on demand from a centralized map website.
 
 ![Diagram of Organic Maps: One arrow from Map Data server for Organic Maps to Organic Maps phone app indicates downloading of map regions. Arrows in either direction indicate import/export of bookmarks from Organic Maps phone app and unspecified means of sharing with friends."](/news/images/desert-atlas-diagram-organic-maps.png)
 
