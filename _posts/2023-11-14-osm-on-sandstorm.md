@@ -35,7 +35,7 @@ Organic Maps allows you to search for destinations, navigate, and create bookmar
 
 ![Diagram of Organic Maps: One arrow from Map Data server for Organic Maps to Organic Maps phone app indicates downloading of map regions. Arrows in either direction indicate import/export of bookmarks from Organic Maps phone app and unspecified means of sharing with friends."](/news/images/desert-atlas-diagram-organic-maps.png)
 
-But what if you want to bookmark some spots for a night on the town and share them with some friends? Exporting and sending bookmark files is a bit inconvenient. There's a web-based sharing feature for Organic Maps, but it reveals the location to Organic Maps' server. If you want to plan the evening together, sharing KML files is especially incovenient. You might find yourself using a different centalized service (Google Maps comes to mind but there are OSM-based options), even if you impport the results to Organic Maps.
+But what if you want to bookmark some spots for a night on the town and share them with some friends? Exporting and sending bookmark files is a bit inconvenient. There's a web-based sharing feature for Organic Maps, but it reveals the location to Organic Maps' server. If you want to plan the evening together, sharing KML files is especially inconvenient. You might find yourself using a different centralized service (Google Maps comes to mind but there are OSM-based options), even if you import the results to Organic Maps.
 
 This is where a private web app comes in handy. Instead of collaborating and sharing on a centralized service, you can use Desert Atlas on a trusted Sandstorm server. When you're done, you can each export the locations to Organic Maps for navigation and convenience. (And if you're not sharing or collaborating, you can always stick to Organic Maps. It's probably still more secure than a private web server sitting on the Internet.)
 
@@ -56,7 +56,7 @@ Desert Atlas takes a much more stripped down approach than Headway. Built for Sa
 The Simplest Version of Everything
 ----------------------------------
 
-So how does this actually work? I kept it simple, which is not to say easy! While the implementation was not that hard, it took a lot of effort to find the right tools and learn how to intergrate them. All the heavy lifting was already implemented by those tools. Big thanks to all those who created them.
+So how does this actually work? I kept it simple, which is not to say easy! While the implementation was not that hard, it took a lot of effort to find the right tools and learn how to integrate them. All the heavy lifting was already implemented by those tools. Big thanks to all those who created them.
 
 OpenStreetMap is, among other things, a canonical database representing the world map. It is openly available and editable like Wikipedia. OSM applications such as Desert Atlas need to download this data in one way or another. Application creators usually provide their own copy of the data in a custom format that their apps download. They also use their own servers to spare the resources of openstreetmap.org. OpenStreetMap provides periodic snapshots of its database as one giant protobuf file known as `planet.osm.pbf`. Application creators can download it and extract what they need to make periodic snapshots of the data available to their users.
 
@@ -64,7 +64,7 @@ In general, the two parts of the OSM app experience are tiles and search.
 
 ### Tile format
 
-The traditional OpenStreetMap stack includes a tile server which imports the raw protobuf data into a postrgres database and generates a grid of square png files for every zoom level. Postgres is hard to get running on Sandstorm because it is made to be multi-user (though at one point I actually got a tile server to run and generate tiles in a test environment!) Alternately, as the provider of the map data for the app, I could have taken the path of pre-generating the png files for the app to download, but I suspect the resulting file size would be massive.
+The traditional OpenStreetMap stack includes a tile server which imports the raw protobuf data into a Postgres database and generates a grid of square png files for every zoom level. Postgres is hard to get running on Sandstorm because it is made to be multi-user (though at one point I actually got a tile server to run and generate tiles in a test environment!) Alternately, as the provider of the map data for the app, I could have taken the path of pre-generating the png files for the app to download, but I suspect the resulting file size would be massive.
 
 Then one day on Hacker News I saw something called [Protomaps](https://protomaps.com). It's a project for vector-based tiles that render in the browser. It uses a file format called pmtiles. A single pmtiles file represents a region of the map at all zoom levels. You can use [protomaps.js](https://github.com/protomaps/protomaps-leaflet) along with the [Leaflet UI framework](http://github.com/Leaflet/Leaflet) to view it. As you scroll or zoom, it makes range requests for the specific subset of the file that it needs to display it. No need for a database, or to generate anything within the Sandstorm app. Each downloadable region of the map has one pmtiles file.
 
@@ -76,9 +76,9 @@ I generated my first pmtiles file and... nothing showed up. It turns out that on
 
 ### Search Data
 
-The standard option for an OpenStreetMap search service is called [Nominatim](https://nominatim.org/). It uses ElasticSearch under the hood, which again is a bit heavy duty for Sandstorm. I asked myself, "what is the sqlite of search?" It turns out the answer is... sqlite! There is a [plugin called fts5](https://sqlite.org/fts5.html) that performs reasonably well on Desert Atlas for searching names in the database. Desert Atlas does not yet support address search, so it remains to be seen how well suited fts5 is for that.
+The standard option for an OpenStreetMap search service is called [Nominatim](https://nominatim.org/). It uses Elasticsearch under the hood, which again is a bit heavy duty for Sandstorm. I asked myself, "what is the SQLite of search?" It turns out the answer is... SQLite! There is a [plugin called FTS5](https://sqlite.org/fts5.html) that performs reasonably well on Desert Atlas for searching names in the database. Desert Atlas does not yet support address search, so it remains to be seen how well suited FTS5 is for that.
 
-To generate the search database, I [decide what I want to extract](https://github.com/orblivion/desert-atlas/blob/658b5f3fb4fbd5dc86d2c4cf27b3a7d1200cba6f/generate-data/extract_search.py) from the raw protobuf for a given region using [pyosmium](https://osmcode.org/pyosmium/). The result is saved to a CSV that gets bundled with the pmtiles file for the same region. When a user downloads a region inside Desert Atlas, the CSV is imported into the grain's sqlite search database.
+To generate the search database, I [decide what I want to extract](https://github.com/orblivion/desert-atlas/blob/658b5f3fb4fbd5dc86d2c4cf27b3a7d1200cba6f/generate-data/extract_search.py) from the raw protobuf for a given region using [pyosmium](https://osmcode.org/pyosmium/). The result is saved to a CSV that gets bundled with the pmtiles file for the same region. When a user downloads a region inside Desert Atlas, the CSV is imported into the grain's SQLite search database.
 
 In addition to searching within downloaded regions, I decided that it would be useful to have cities and large towns built into the app so that the user can search for their city *before* they download any regions. This makes it easier for users to orient themselves and find which region they want to download. For this part, I used a pre-baked non-OSM database called [GeoNames](http://download.geonames.org/export/dump/) as a shortcut.
 
@@ -92,7 +92,7 @@ For now, I found a "good enough" shortcut and I decided to take it. I split `pla
 
 ### UI
 
-This part was straightforward. As mentioned above, I used Leaflet, which is the go-to web UI framework for OpenStreetMap. It's extensible and worked well for me. I also used a plugin called [Leaflet-Search](https://github.com/stefanocudini/leaflet-search) that I was able to connect to the simple Python based backend and query the sqlite database. 
+This part was straightforward. As mentioned above, I used Leaflet, which is the go-to web UI framework for OpenStreetMap. It's extensible and worked well for me. I also used a plugin called [Leaflet-Search](https://github.com/stefanocudini/leaflet-search) that I was able to connect to the simple Python based backend and query the SQLite database. 
 
 ### So, in a nutshell...
 
@@ -107,7 +107,7 @@ App packaging
 * bundle geojson files for low-res world and USA maps
 * bundle cities and large towns from GeoNames
 
-When a grain is created on the user's Sandstorm server, the bundled GeoNames data is imported into the grain's sqlite+fts5 search database. The bundled geojson world and USA maps display thanks to Leaflet. The grain downloads whichever regions the user asks for from S3. For each region, the pmtiles file is ready to use as-is by protomaps.js and Leaflet, and the search CSV file is imported into the search database, with Leaflet-Search providing the UI.
+When a grain is created on the user's Sandstorm server, the bundled GeoNames data is imported into the grain's SQLite+FTS5 search database. The bundled geojson world and USA maps display thanks to Leaflet. The grain downloads whichever regions the user asks for from S3. For each region, the pmtiles file is ready to use as-is by protomaps.js and Leaflet, and the search CSV file is imported into the search database, with Leaflet-Search providing the UI.
 
 Getting involved
 ----------------
@@ -116,4 +116,4 @@ If you are an OSM developer, you may or may not be facepalming right now. Likely
 
 It's a modest submission of a usable proof of concept. I did not spend much time getting hung up on finding the very best way of doing everything on the first try, but at this point I am wide open to improvements, including replacing any part of this with something better.
 
-[See here](https://github.com/orblivion/desert-atlas/wiki/Where-to-help) for some areas that I think could be low hanging fruit, especially for people who can teach me about areas I am less famailar with (tiles, search, UI, front end) or just general improvements (rewriting the server in Go). Hit me up if you would like to help!
+[See here](https://github.com/orblivion/desert-atlas/wiki/Where-to-help) for some areas that I think could be low hanging fruit, especially for people who can teach me about areas I am less familiar with (tiles, search, UI, front end) or just general improvements (rewriting the server in Go). Hit me up if you would like to help!
