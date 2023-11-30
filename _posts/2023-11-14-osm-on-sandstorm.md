@@ -26,7 +26,7 @@ When you're ready to take your map on the road, Desert Atlas is also a companion
 
 ![Screenshot, using "Export To App" feature to export bookmarks to Organic Maps"](/news/images/desert-atlas-export-to-app.png)
 
-This has been the result of quite a bit of effort on my part, including learning more about the OpenStreetMap ecosystem than I ever thought I would. But since I had to learn a lot of things, I did not learn them very deeply. If you are inspired by this project and have deeper knowledge about some of its components, I have listed some low hanging fruit at the end of this post where you might be able to make a big impact pretty easily.
+This has been the result of quite a bit of effort on my part, including learning more about the OpenStreetMap ecosystem than I ever thought I would. But since I had to learn a lot of things, I did not learn them very deeply. If you are inspired by this project and have deeper knowledge about some of its components, I have [layed out some areas](https://github.com/orblivion/desert-atlas/wiki/Where-to-help) where you might be able to make a big impact pretty easily.
 
 The gap between Organic Maps and Google Maps
 --------------------------------------------
