@@ -76,7 +76,7 @@ I generated my first pmtiles file and... nothing showed up. It turns out that on
 
 ### Search Data
 
-The standard option for an OpenStreetMap search service is called [Nominatim](https://nominatim.org/). It uses Elasticsearch under the hood, which again is a bit heavy duty for Sandstorm. I asked myself, "what is the SQLite of search?" It turns out the answer is... SQLite! There is a [plugin called FTS5](https://sqlite.org/fts5.html) that performs reasonably well on Desert Atlas for searching names in the database. Desert Atlas does not yet support address search, so it remains to be seen how well suited FTS5 is for that.
+The standard option for an OpenStreetMap search service is called [Nominatim](https://nominatim.org/). ~~It uses Elasticsearch under the hood, which again is a bit heavy duty for Sandstorm.~~ (edit: My mistake, it also uses Postgres, but the point stands). I asked myself, "what is the SQLite of search?" It turns out the answer is... SQLite! There is a [plugin called FTS5](https://sqlite.org/fts5.html) that performs reasonably well on Desert Atlas for searching names in the database. Desert Atlas does not yet support address search, so it remains to be seen how well suited FTS5 is for that.
 
 To generate the search database, I [decide what I want to extract](https://github.com/orblivion/desert-atlas/blob/658b5f3fb4fbd5dc86d2c4cf27b3a7d1200cba6f/generate-data/extract_search.py) from the raw protobuf for a given region using [pyosmium](https://osmcode.org/pyosmium/). The result is saved to a CSV that gets bundled with the pmtiles file for the same region. When a user downloads a region inside Desert Atlas, the CSV is imported into the grain's SQLite search database.
 
