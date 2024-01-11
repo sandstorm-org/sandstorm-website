@@ -41,9 +41,9 @@
      inkscape:window-height="1025"
      id="namedview14"
      showgrid="false"
-     inkscape:zoom="1.1534819"
-     inkscape:cx="113.74597"
-     inkscape:cy="-156.54621"
+     inkscape:zoom="8.7285105"
+     inkscape:cx="32.353871"
+     inkscape:cy="24.749584"
      inkscape:window-x="0"
      inkscape:window-y="55"
      inkscape:window-maximized="0"
@@ -57,11 +57,11 @@
   <title
      id="title2">Matrix (protocol) logo</title>
   <path
-     d="M 1.26129,5.4772805 V 39.205203 a 6.0374294,4.2159905 0 0 0 6.0374298,4.215991 H 61.635588 L 49.560729,34.989212 V 5.4772805 A 6.0374294,4.2159905 0 0 0 43.523299,1.26129 H 7.2987198 A 6.0374294,4.2159905 0 0 0 1.26129,5.4772805 Z"
+     d="M -2.8340121,5.5663913 V 39.116092 a 7.2204431,4.1937128 0 0 0 7.2204436,4.193713 H 69.370423 L 54.929537,34.922379 V 5.5663913 A 7.2204431,4.1937128 0 0 0 47.709093,1.3726786 H 4.3864315 a 7.2204431,4.1937128 0 0 0 -7.2204436,4.1937127 z"
      id="path108"
-     style="fill:#5b4f8c;fill-opacity:1;stroke:#5b4f8c;stroke-width:2.52258;stroke-opacity:1" />
+     style="fill:#5b4f8c;fill-opacity:1;stroke:#5b4f8c;stroke-width:2.75139;stroke-opacity:1" />
   <g
-     transform="translate(12.056431,6.7000451)"
+     transform="matrix(0.90627465,0,0,0.90627465,13.520567,8.3683145)"
      fill="#040404"
      id="g10"
      style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">
