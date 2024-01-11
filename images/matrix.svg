@@ -8,12 +8,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   viewBox="0 0 53.664235 37.542011"
+   viewBox="0 0 65.644799 44.682483"
    id="svg12"
    sodipodi:docname="matrix.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   width="53.664234"
-   height="37.542011">
+   width="65.644798"
+   height="44.682484">
   <metadata
      id="metadata18">
     <rdf:RDF>
@@ -42,8 +42,8 @@
      id="namedview14"
      showgrid="false"
      inkscape:zoom="1.1534819"
-     inkscape:cx="108.53792"
-     inkscape:cy="-160.65829"
+     inkscape:cx="113.74597"
+     inkscape:cy="-156.54621"
      inkscape:window-x="0"
      inkscape:window-y="55"
      inkscape:window-maximized="0"
@@ -57,11 +57,11 @@
   <title
      id="title2">Matrix (protocol) logo</title>
   <path
-     d="M -3.9467667,1.365206 V 35.093129 A 6.0374294,4.2159905 0 0 0 2.0906631,39.30912 H 56.427531 L 44.352672,30.877138 V 1.365206 a 6.0374294,4.2159905 0 0 0 -6.03743,-4.2159905 H 2.0906631 A 6.0374294,4.2159905 0 0 0 -3.9467667,1.365206 Z"
+     d="M 1.26129,5.4772805 V 39.205203 a 6.0374294,4.2159905 0 0 0 6.0374298,4.215991 H 61.635588 L 49.560729,34.989212 V 5.4772805 A 6.0374294,4.2159905 0 0 0 43.523299,1.26129 H 7.2987198 A 6.0374294,4.2159905 0 0 0 1.26129,5.4772805 Z"
      id="path108"
      style="fill:#5b4f8c;fill-opacity:1;stroke:#5b4f8c;stroke-width:2.52258;stroke-opacity:1" />
   <g
-     transform="translate(6.8483742,2.5879706)"
+     transform="translate(12.056431,6.7000451)"
      fill="#040404"
      id="g10"
      style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">
