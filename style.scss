@@ -2121,7 +2121,16 @@ body >footer {
 					background-position: center;
 				}
 				&.github::before { content: "\e903"; }
-				&.livechat::before { content: "\e905"; }
+
+				&.livechat {
+					height: 55px;
+					padding-top: 55px;
+					background-image: url(/images/matrix.svg);
+					background-repeat: no-repeat;
+					background-size: 60px 60px;
+					background-position: center;
+				}
+
 				&.devgroup::before { content: "\e901"; }
 				&.youtube::before { content: "\e909"; }
 			}

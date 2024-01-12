@@ -201,24 +201,24 @@
     <g
        id="g5197"
        transform="translate(1.3229166)"
-       style="fill:#764e7f;fill-opacity:1">
+       style="fill:#5b4f8c;fill-opacity:1">
       <g
          id="g5132-90"
-         style="fill:#764e7f;fill-opacity:1"
+         style="fill:#5b4f8c;fill-opacity:1"
          transform="matrix(0.9789804,0,0,0.9789804,-3157.9561,1202.4422)">
         <g
            transform="matrix(0.2553682,0,0,0.2553682,2615.9213,-1125.3113)"
            id="g5080-78"
-           style="fill:#764e7f;fill-opacity:1">
+           style="fill:#5b4f8c;fill-opacity:1">
           <path
              inkscape:connector-curvature="0"
              id="path5404-0-0"
              d="m 2450.431,-937.13662 51.9615,30 v 12 l -51.9615,30 v -12 l 41.5693,-24 -41.5692,-24 z"
-             style="fill:#764e7f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="fill:#5b4f8c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              sodipodi:nodetypes="cccccccc" />
           <path
              sodipodi:nodetypes="cccc"
-             style="fill:#764e7f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="fill:#5b4f8c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              d="m 2450.431,-913.13662 20.7847,12 -20.7847,12 z"
              id="path5406-6-3"
              inkscape:connector-curvature="0" />
@@ -226,13 +226,13 @@
       </g>
       <g
          id="g5127-1"
-         style="fill:#764e7f;fill-opacity:1"
+         style="fill:#5b4f8c;fill-opacity:1"
          transform="matrix(0.9789804,0,0,0.9789804,-3157.9561,1202.4422)">
         <path
            id="path5467-2-0"
            transform="matrix(0.27026418,0,0,0.27026418,3225.7603,-1228.2597)"
            d="M 49.097656,-504.56641 0,-476.2207 v 11.33789 l 39.277344,-22.67578 v 45.35351 l 9.820312,5.66992 z m -19.638672,34.01563 -19.6406246,11.33789 19.6406246,11.33789 z"
-           style="fill:#764e7f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="fill:#5b4f8c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            inkscape:connector-curvature="0" />
       </g>
     </g>
