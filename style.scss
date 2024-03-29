@@ -2120,7 +2120,7 @@ body >footer {
 					background-size: 55px 55px;
 					background-position: center;
 				}
-				&.fediverse::hover::before{ background-image: url(/images/matrix.svg); }
+				&.fediverse:hover:before { background-image: url(/images/matrix.svg); }
 				&.github::before { content: "\e903"; }
 
 				&.livechat {
