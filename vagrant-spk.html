@@ -40,35 +40,20 @@ title: vagrant-spk
   </section>
 
   <section>
-    <h2>1. Download & run the installer</h2>
+    <h2>1. Install vagrant-spk</h2>
 
     <div class="https-verified section-content">
-      <h3>HTTPS-verified install</h3>
+      <h3>Linux and macOS install</h3>
+	  
+	  <p>Ensure Git, Vagrant, and Virtualbox are installed.</p>
 
       <p>Run this in a terminal:</p>
-<script type="text/javascript">
-function onInstallMouseDown() {
-  window.sandstormTracker && window.sandstormTracker.trackClick("curl-pipe-bash");
-}
-</script>
-      <pre onmousedown="onInstallMouseDown();">curl https://install.sandstorm.io | bash</pre>
-
-      <p>The installer will offer you free dynamic DNS and valid HTTPS via <a href="https://sandcats.io">sandcats.io</a>,
-        a service maintained by the Sandstorm development team.
-
-      <p>If you prefer more validation, you can
-        <a href="https://docs.sandstorm.io/en/latest/install/#option-2-github-verified-install">download the install script from GitHub</a> or
-        <a href="https://docs.sandstorm.io/en/latest/install/#option-4-installing-from-source">build from source</a>.
-
+      <pre><span align=left>mkdir -p ~/projects<br>cd ~/projects<br>git clone https://github.com/sandstorm-io/vagrant-spk.git<br>cd vagrant-spk<br>sudo ln -s $PWD/vagrant-spk /usr/local/bin</span></pre>
     </div>
     <div class="pgp-verified section-content">
-      <h3>PGP-verified install</h3>
-      <p>For people as paranoid as we are...</p>
-      <a href="https://docs.sandstorm.io/en/latest/install/#option-3-pgp-verified-install">See the docs »</a>
-    </div>
-     <div class="aws section-content">
-      <h3>Amazon EC2 install</h3>
-      <a href="https://docs.sandstorm.io/en/latest/guided-tour/#create-a-virtual-machine-in-amazon-ec2">Begin install on AWS »</a>
+      <h3>Windows install</h3>
+      <p>Ensure Git, Vagrant, and Virtualbox are installed. Then download the latest installer:</p>
+      <a href="https://github.com/sandstorm-io/vagrant-spk/releases">Download</a>
     </div>
   </section>
 
