@@ -2120,6 +2120,7 @@ body >footer {
 					background-size: 55px 55px;
 					background-position: center;
 				}
+				&.fediverse:hover::before{ background-image: url(/images/lol.svg); }
 				&.github::before { content: "\e903"; }
 
 				&.livechat {
