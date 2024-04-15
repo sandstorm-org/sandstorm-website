@@ -21,5 +21,5 @@ In Chicago, at [La Brasa Roja](http://www.yelp.com/biz/la-brasa-roja-chicago):
 <img width="600" src="/news/images/chicago.jpg">
 
 If I'm traveling again, I'll drop a line to
-[sandstorm-dev](https://groups.google.com/forum/#!forum/sandstorm-dev) --
+[the mailing list](https://groups.io/g/sandstorm-user-group) --
 one more good reason to subscribe!

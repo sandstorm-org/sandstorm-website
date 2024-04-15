@@ -19,5 +19,5 @@ I invite you to
 porting an app, and to tell me what you think! I am by no means an expert on
 anything Ruby-related, so don't hesitate to contribute corrections, either by
 directly editing the wiki, by starting a discussion on the
-[sandstorm-dev](https://groups.google.com/forum/#!forum/sandstorm-dev)
+[sandstorm-dev](https://groups.io/g/sandstorm-dev-group)
 mailing list, or by [emailing me](mailto:david@sandstorm.io).

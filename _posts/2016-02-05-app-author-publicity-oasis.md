@@ -48,7 +48,7 @@ All three of us spend every day thinking about how to get more people using the 
 
 - Find organizations that care about specific apps, and explain to them in person how the community's apps plus self-hosting it would help the organization achieve its mission.
 
-The Sandstorm <a href="/community">community</a> as a whole will give you feedback on your app if you email the <a href="https://groups.google.com/forum/#!forum/sandstorm-dev">sandstorm-dev group</a>. Check out these <a href="https://groups.google.com/forum/#!topic/sandstorm-dev/YNiAzlqON40">recent</a> <a href="https://groups.google.com/forum/#!topic/sandstorm-dev/nVu9VBNFNUM">threads</a> to see how it works.
+The Sandstorm <a href="/community">community</a> as a whole will give you feedback on your app if you email the <a href="https://groups.io/g/sandstorm-dev-group">sandstorm-dev group</a>. Check out these <a href="https://groups.google.com/forum/#!topic/sandstorm-dev/YNiAzlqON40">recent</a> <a href="https://groups.google.com/forum/#!topic/sandstorm-dev/nVu9VBNFNUM">threads</a> to see how it works.
 
 I want self-hosting to be a meaningful alternative to software as a service. You can be part of that movement by packaging your app for Sandstorm. If your app is written using Meteor, I'll even create the [initial packaging](one-click-installers-for-everyone).
 
@@ -67,4 +67,4 @@ Every good web app deserves users and publicity. I'm here to help you with that.
 
 You can dive right in by reading the [packaging tutorial](https://docs.sandstorm.io/en/latest/vagrant-spk/packaging-tutorial/). Sandstorm supports any language/stack that runs on Linux, and has special [tooling](https://docs.sandstorm.io/en/latest/vagrant-spk/platform-stacks/) for nodejs, PHP/MySQL, Meteor, and Python.
 
-If you're unsure, or you just want to chat, or you're waiting on us to publish your app, it'd be my honor to hear from you. Send me an email at [community@sandstorm.io](mailto:community@sandstorm.io)!
+If you're unsure, or you just want to chat, or you're waiting on us to publish your app, it'd be my honor to hear from you. Send me an email at [the mailing list](https://groups.io/g/sandstorm-dev-group)!

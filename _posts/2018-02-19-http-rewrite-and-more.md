@@ -41,4 +41,4 @@ Here's some things I want to work on next:
 * Making the top bar less ugly. People complain that Sandstorm's UI is suffocating, especially the black bar across the top. However, Sandstorm's security model requires that we have a place to hang trusted UI bits -- such as the sharing dialog -- that is separate from the app proper. Many apps, though, also have their own top bar with app-specific features, creating a double-top-bar effect. What I'd like to do instead is have a single top bar rendered by Sandstorm, but which can be customized by the app to include app-specific controls as well and to look visually consistent with the rest of the app.
 * Many other things!
 
-Want to get involved? [Join the sandstorm-dev mailing list.](https://groups.google.com/group/sandstorm-dev) and [check out ways to contribute](https://github.com/sandstorm-io/sandstorm/blob/master/CONTRIBUTING.md).
+Want to get involved? [Join the sandstorm-dev mailing list.](https://groups.io/g/sandstorm-dev-group) and [check out ways to contribute](https://github.com/sandstorm-io/sandstorm/blob/master/CONTRIBUTING.md).
