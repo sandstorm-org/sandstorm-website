@@ -67,4 +67,4 @@ Every good web app deserves users and publicity. I'm here to help you with that.
 
 You can dive right in by reading the [packaging tutorial](https://docs.sandstorm.io/en/latest/vagrant-spk/packaging-tutorial/). Sandstorm supports any language/stack that runs on Linux, and has special [tooling](https://docs.sandstorm.io/en/latest/vagrant-spk/platform-stacks/) for nodejs, PHP/MySQL, Meteor, and Python.
 
-If you're unsure, or you just want to chat, or you're waiting on us to publish your app, it'd be my honor to hear from you. Send me an email at [the mailing list](https://groups.io/g/sandstorm-dev-group)!
+If you're unsure, or you just want to chat, or you're waiting on us to publish your app, it'd be my honor to hear from you. Send us an email on [sandstorm-dev](https://groups.io/g/sandstorm-dev-group)!

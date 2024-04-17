@@ -2131,7 +2131,7 @@ body >footer {
 					background-position: center;
 				}
 
-				&.devgroup::before { content: "\e901"; }
+				&.maillist::before { content: "\e901"; }
 				&.youtube::before { content: "\e909"; }
 			}
 			a:hover:before {
