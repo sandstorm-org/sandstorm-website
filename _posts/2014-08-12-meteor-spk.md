@@ -23,10 +23,10 @@ To make this even easier, we've written a tool called [`meteor-spk`](https://san
     meteor-spk init
     meteor-spk pack myapp.spk
 
-Our intrepid fan [Jake Weisz](https://plus.google.com/+JakeWeisz) -- who previously [contributed a port of EtherCalc](2014-08-05-ethercalc.html) -- has used this tool to port [Meteor Blocks](https://github.com/stubailo/meteor-blocks), a simple voxel-based model editor written using Meteor. You can find it on the Sandstorm app list now -- [try the demo](https://demo.sandstorm.io) if you don't already have your own server.
+Our intrepid fan [Jake Weisz](https://mastodon.social/@ocdtrekkie) -- who previously [contributed a port of EtherCalc](2014-08-05-ethercalc.html) -- has used this tool to port [Meteor Blocks](https://github.com/stubailo/meteor-blocks), a simple voxel-based model editor written using Meteor. You can find it on the Sandstorm app list now -- [try the demo](https://demo.sandstorm.io) if you don't already have your own server.
 
 ![Meteor-blocks screenshot](/apps/meteor-blocks.png)
 
-We hope to see tools like this developed for other frameworks in the future. `meteor-spk` is just a simple bash script wrapping Sandstorm's `spk` tool and providing a dependency bundle to merge into the package. If you'd like to contribute a similar script for your own favorite framework, [let us know](https://groups.google.com/group/sandstorm-dev)!
+We hope to see tools like this developed for other frameworks in the future. `meteor-spk` is just a simple bash script wrapping Sandstorm's `spk` tool and providing a dependency bundle to merge into the package. If you'd like to contribute a similar script for your own favorite framework, [let us know](https://groups.io/g/sandstorm-dev-group)!
 
 *Disclosure: Jade Wang, a member of the Sandstorm project, also works for Meteor, but Sandstorm and Meteor are not affiliated.*

@@ -25,7 +25,7 @@ We don't have automatic "push" updates yet (they're coming), so to update your c
 
 ### Meeting Notes
 
-Curious to see what's going on with Sandstorm on a day-to-day basis? We have started posting our daily meeting notes to the [Sandstorm dev list](https://groups.google.com/group/sandstorm-dev). Feel free to subscribe for updates. (And yes, we do hope to move the mailing list to a Sandstorm app as soon as we have one. ;) )
+Curious to see what's going on with Sandstorm on a day-to-day basis? We have started posting our daily meeting notes to the [Sandstorm list](https://groups.io/g/sandstorm-user-group). Feel free to subscribe for updates. (And yes, we do hope to move the mailing list to a Sandstorm app as soon as we have one. ;) )
 
 ### App Committee
 
@@ -37,6 +37,6 @@ Sandstorm recently gained the ability to host apps which expose APIs. This means
 
 ### Perk fulfillment
 
-**Credits:** Everyone who contributed and who responded to our questionnaire is now named in the [Sandstorm about page](https://demo.sandstorm.io/about) and on [our home page](https://sandstorm.io). If you contributed but missed the questionnaire we sent out, please [e-mail us](mailto:support@sandstorm.io) to let us know how you want your name to appear.
+**Credits:** Everyone who contributed and who responded to our questionnaire is now named in the [Sandstorm about page](https://demo.sandstorm.io/about) and on [our home page](https://sandstorm.io). If you contributed but missed the questionnaire we sent out, please [e-mail us](mailto:jacob@sandstorm.org) to let us know how you want your name to appear.
 
 **Stickers and t-shirts:** We've collected everyone's shipping addresses and t-shirt sizes and will be shipping these out soon. It took a little longer than expected to get everyone to respond, but we've now passed the info off to the fulfillment company and expect these to ship within the next five weeks or so.

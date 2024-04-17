@@ -75,4 +75,4 @@ on libera.chat, and sign up for the [sandstorm-dev mailing list][8].
 [5]: https://docs.sandstorm.io/
 [6]: https://github.com/sandstorm-io/vagrant-spk/issues/213
 [7]: https://github.com/sandstorm-io/vagrant-spk/
-[8]: https://groups.google.com/forum/#!forum/sandstorm-dev
+[8]: https://groups.io/g/sandstorm-dev-group

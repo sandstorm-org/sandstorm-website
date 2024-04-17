@@ -41,7 +41,7 @@ practices](https://sandstorm.io/how-it-works).
 
 I hope you'll [read the full
 analysis](https://docs.sandstorm.io/en/latest/using/security-practices/), prepared by myself and
-Kenton Varda. <a href="https://groups.google.com/forum/#!forum/sandstorm-dev">Let us know</a> what
+Kenton Varda. <a href="https://groups.io/g/sandstorm-user-group">Let us know</a> what
 you think!
 
 ### When self-hosting is secure, users are free to choose
