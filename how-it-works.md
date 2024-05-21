@@ -82,7 +82,7 @@ With grains, the user can decide when to upgrade to a new version of an applicat
 <section id="developers" markdown="1">
 ### Easier for developers: Less complexity, less boilerplate
 
-Building a scalable distributed system is hard. But Sandstorm developers don't need to do that. A Sandstorm app developer needs only write an app that runs on a single machine, since a single document is unlikely ever to need more resources than that. Sandstorm will "scale" the app by running separate grains on separate machines as needed. This also simplifies the app code, as a developer need not even write logic or storage schemas to handle more than one document.
+A Sandstorm app developer needs only write an app that runs on a single machine, since a single document is unlikely ever to need more resources than that. This simplifies the app code, as a developer need not even write logic or storage schemas to handle more than one document.
 
 In fact, because Sandstorm has such visibility into the apps' data model, it can implement all kinds of UI in a common way, reducing work for app developers while also making life more consistent for users. For example:
 
