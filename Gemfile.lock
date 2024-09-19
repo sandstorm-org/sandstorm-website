@@ -16,7 +16,7 @@ GEM
     ffi (1.16.3)
     formatador (1.1.0)
     forwardable-extended (2.6.0)
-    google-protobuf (3.24.4)
+    google-protobuf (3.25.5)
     guard (2.18.1)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
