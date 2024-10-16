@@ -23,7 +23,7 @@
             "url": "https://github.com/sandstorm-io/sandstorm"
         },
         "licenses": ["spdx:Apache-2.0"],
-        "tags": ["decentralized", "selfhosting", "containerization"]
+        "tags": ["privacy", "security", "decentralized", "selfhosting", "server", "containerization"]
     }],
     
     "funding": {
@@ -39,7 +39,7 @@
             "status": "active",
             "name": "Release fork with updates",
             "description": "Since moving to a community-run organization, we have been preparing to complete a major database migration and dependency upgrade which should help secure and support our users for the next several years. We've identified a domain expert to handle this work at an extremely reasonable rate, but are short on funding to complete the project.",
-            "amount": 5000,
+            "amount": 7000,
             "currency": "USD",
             "frequency": "one-time",
             "channels": ["opencollective"]
