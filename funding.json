@@ -2,7 +2,7 @@
     "version": "v1.0.0",
     
     "entity": {
-        "type": "community",
+        "type": "organisation",
         "role": "maintainer",
         "name": "Sandstorm Community",
         "email": "funding@sandstorm.org",
