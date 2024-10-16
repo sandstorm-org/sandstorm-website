@@ -1,0 +1,60 @@
+{
+    "version": "v1.0.0",
+    
+    "entity": {
+        "type": "organisation",
+        "role": "maintainer",
+        "name": "Sandstorm Community",
+        "email": "funding@sandstorm.org",
+        "description": "The Sandstorm Community is a community-run organization launched to continue the self-hosting platform originally launched as Sandstorm.io back in 2014. We have the endorsement and support of the project's creator, but need additional resources in order to shore up some challenges and ensure the platform can not just be relied upon for years to come, but to introduce new capabilities.",
+        "webpageUrl": {
+            "url": "https://sandstorm.org"
+        }
+    },
+    
+    "projects": [{
+        "guid": "sandstorm",
+        "name": "Sandstorm",
+        "description": "Sandstorm is a self-hostable web productivity suite. It's implemented as a security-hardened web app package manager. Sandstorm makes self-hosting easy and secure, and it's been doing so for over ten years, with thousands of installed servers used by individuals and organizations alike.",
+        "webpageUrl": {
+            "url": "https://sandstorm.org"
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/sandstorm-io/sandstorm",
+            "wellKnown": "https://github.com/sandstorm-io/sandstorm/blob/master/.well-known/funding-manifest-urls"
+        },
+        "licenses": ["spdx:Apache-2.0"],
+        "tags": ["privacy", "security", "decentralized", "selfhosting", "server", "containerization"]
+    }],
+    
+    "funding": {
+        "channels": [{
+            "guid": "opencollective",
+            "type": "other",
+            "address": "https://opencollective.com/sandstormcommunity",
+            "description": ""
+        }],
+
+        "plans": [{
+            "guid": "upgrade-and-fork",
+            "status": "active",
+            "name": "Release fork with updates",
+            "description": "Since moving to a community-run organization, we have been preparing to complete a major database migration and dependency upgrade which should help secure and support our users for the next several years. We've identified a domain expert to handle this work at an extremely reasonable rate, but are short on funding to complete the project.",
+            "amount": 7000,
+            "currency": "USD",
+            "frequency": "one-time",
+            "channels": ["opencollective"]
+        },
+        {
+            "guid": "infrastructure",
+            "status": "active",
+            "name": "Community infrastructure",
+            "description": "Our project's founder has been graciously maintaining the legacy infrastructure for our app index and dynamic DNS services, but we need to launch and operate community-owned and community-run infrastructure as we move forward.",
+            "amount": 100,
+            "currency": "USD",
+            "frequency": "monthly",
+            "channels": ["opencollective"]
+        }
+        ]
+    }
+}
