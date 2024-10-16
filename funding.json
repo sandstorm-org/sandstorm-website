@@ -20,7 +20,8 @@
             "url": "https://sandstorm.org"
         },
         "repositoryUrl": {
-            "url": "https://github.com/sandstorm-io/sandstorm"
+            "url": "https://github.com/sandstorm-io/sandstorm",
+            "wellKnown": "https://github.com/sandstorm-io/sandstorm/blob/master/.well-known/funding-manifest-urls"
         },
         "licenses": ["spdx:Apache-2.0"],
         "tags": ["privacy", "security", "decentralized", "selfhosting", "server", "containerization"]
