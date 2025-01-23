@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "Zulip"
+title: "Getting On Zulip"
 author: Daniel Krol
 authorUrl: https://github.com/orblivion
 ---
-
-Getting On Zulip
-----------------
 
 We are officially moving the [chat portion](https://sandstorm.zulipchat.com) of the Sandstorm Community to Zulip. Zulip is an organized team chat app designed for efficient communication.
 
@@ -18,7 +15,8 @@ If you are still on Matrix, or especially if you are on IRC, we invite you to mo
 
 Important announcements will go on our mailing lists, and you are still encouraged to continue to use them for questions if you prefer it over chat.
 
-### A little history:
+A Little History
+----------------
 
 The Sandstorm project (long before the community fork) was originally on IRC. First Freenode, and then Libera.Chat.
 
@@ -30,7 +28,8 @@ We are frankly not in love with Matrix in the first place, purely a personal pre
 
 We heard about Zulip, tried it out. It's a bit to get used to, but overall we like it. We decided to make the switch.
 
-### Why Zulip?
+Why Zulip?
+----------
 
 Zulip conversations are organized into Channels and Topics. A Topic corresponds roughly to a "thread" in other chat apps, except that they are mandatory. That is, every post in a Channel has to be on a certain Topic. You can view a Channel as a whole or focus on a given Topic. This takes a little getting used to, but it keeps things organized.
 
