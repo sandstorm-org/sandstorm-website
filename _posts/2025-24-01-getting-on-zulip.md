@@ -8,9 +8,11 @@ authorUrl: https://github.com/orblivion
 Getting On Zulip
 ----------------
 
-We are officially moving the chat portion of the Sandstorm Community to [Zulip](https://sandstorm.zulipchat.com).
+We are officially moving the [chat portion](https://sandstorm.zulipchat.com) of the Sandstorm Community to Zulip. Zulip is an organized team chat app designed for efficient communication.
 
-You don't need to install an app to join, though you can. You don't even need to log in to see what's happening. Take a look!
+Zulip is a FOSS company, and they offer free hosting to FOSS projects such as ours. We appreciate this, and invite you to [give them a look](https://zulip.com/).
+
+You don't need to install an app to join, though apps are available. You don't even need to log in to see what's happening. Take a look!
 
 If you are still on Matrix, or especially if you are on IRC, we invite you to move over. Zulip will be a great way to collaborate at a faster pace than on the mailing list.
 
@@ -38,11 +40,4 @@ Channels can be made public and searchable on the web. Specific conversations ar
 
 Not to mention, Zulip is just snappy. It's not bulky like Slack or Matrix. We find all these features conducive to having productive conversations. This is where we can "get in the weeds" and work things out.
 
-They're also great to work with. Zulip is a company, but they offer free hosting to FOSS projects such as ours. They responded [overnight to a bug report](TODO). (By contrast we reached out to Matrix for help with the bridge and we never heard back).
-
-So, thank you to Zulip. We understand that they are a business and we appreciate the free hosting. Please give them a look.
-
-#### Downsides:
-
-Arguably a bit annoying that you have to make a separate account (like Slack) for every community, even on the same server.
-The need to make a Topic for every message is a bit to get used to. We have "off topic"/"water cooler" threads for catch-all.
+They're also great to work with. They [responded and resolved](https://chat.zulip.org/#narrow/channel/387-zulip-cloud/topic/Turning.20off.20.22Invitations.20are.20required.2E.2E.2E.22.20on.20Standard.20plan) a bug report overnight. (By contrast we reached out to Matrix for help with the bridge and we never heard back).
