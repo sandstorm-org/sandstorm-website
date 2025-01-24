@@ -5,15 +5,11 @@ author: Daniel Krol
 authorUrl: https://github.com/orblivion
 ---
 
-We are officially moving the [chat portion](https://sandstorm.zulipchat.com) of the Sandstorm Community to Zulip. Zulip is an organized team chat app designed for efficient communication.
+We are officially moving the [chat portion](https://sandstorm.zulipchat.com) of the Sandstorm Community to Zulip. Important announcements will go on our [mailing lists](https://groups.io/g/sandstorm-user-group), and you are still encouraged to continue to use them for questions if you prefer it over chat.
 
-Zulip is a FOSS company, and they offer free hosting to FOSS projects such as ours. We appreciate this, and invite you to [give them a look](https://zulip.com/).
+Zulip is an organized team chat app designed for efficient communication. They are a FOSS company, and they offer free hosting to FOSS projects such as ours. We appreciate this, and invite you to [give them a look](https://zulip.com/).
 
-You don't need to install an app to join, though apps are available. You don't even need to log in to see what's happening. Take a look!
-
-If you are still on Matrix, or especially if you are on IRC, we invite you to move over. Zulip will be a great way to collaborate at a faster pace than on the mailing list.
-
-Important announcements will go on our mailing lists, and you are still encouraged to continue to use them for questions if you prefer it over chat.
+If you are still on Matrix, or especially if you are on IRC, we invite you to move over. Zulip will be a great way to collaborate at a faster pace than on the mailing list. You don't need to install an app to join, though apps are available. You don't even need to log in to see what's happening.
 
 A Little History
 ----------------
