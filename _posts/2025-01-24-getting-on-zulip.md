@@ -9,7 +9,7 @@ We are officially moving the [chat portion](https://sandstorm.zulipchat.com) of 
 
 Zulip is an organized team chat app designed for efficient communication. It is built by a FOSS company which offers free hosting to FOSS projects such as ours. We appreciate this, and invite you to [give them a look](https://zulip.com/).
 
-If you are still on Matrix, or especially if you are on IRC, we invite you to move over. Zulip will be a great way to collaborate at a faster pace than on the mailing list. You don't need to install an app to join, though apps are available. You don't even need to log in to see what's happening.
+If you are still on Matrix, or especially if you are on IRC, we invite you to move over. Zulip will be a great way to collaborate at a faster pace than our mailing lists. You don't need to install an app to join, though apps are available. You don't even need to log in to see what's happening.
 
 A Little History
 ----------------
