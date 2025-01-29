@@ -31,8 +31,8 @@ Zulip conversations are organized into Channels and Topics. A Topic corresponds 
 
 If discussion in a thread starts to drift into a different subject, an admin can move those posts to a new appropriate Topic. Similarly Topics can be moved to a more appropriate Channel. This keeps us focused.
 
-Channels can be made public and searchable on the web. Specific conversations are linkable (such as the link below). As with mailing lists, this is very useful for an open source project. For instance, a Github pull request can link to where the idea was previously hashed out on Zulip.
+Channels can be made public and searchable on the web, and we have [made most of our channels public](https://sandstorm.zulipchat.com)). Specific conversations are linkable (such as the link in the paragraph below). As with mailing lists, this is very useful for an open source project. For instance, a Github pull request can link to where the idea was previously hashed out on Zulip.
 
 Not to mention, Zulip is just snappy. It's not bulky like Slack or Matrix. We find all these features conducive to having productive conversations. This is where we can "get in the weeds" and work things out.
 
-They're also great to work with. They [responded and resolved](https://chat.zulip.org/#narrow/channel/387-zulip-cloud/topic/Turning.20off.20.22Invitations.20are.20required.2E.2E.2E.22.20on.20Standard.20plan) a bug report overnight. (By contrast we reached out to Matrix for help with the bridge and we never heard back).
+They're also great to work with. They [responded and resolved](https://chat.zulip.org/#narrow/channel/387-zulip-cloud/topic/Turning.20off.20.22Invitations.20are.20required.2E.2E.2E.22.20on.20Standard.20plan) a bug report overnight. (Again, by contrast we reached out to Matrix for help with the bridge and we never heard back).
