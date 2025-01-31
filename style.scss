@@ -2122,10 +2122,10 @@ body >footer {
 				}
 				&.github::before { content: "\e903"; }
 
-				&.livechat {
+				&.zulip {
 					height: 55px;
 					padding-top: 55px;
-					background-image: url(/images/matrix.svg);
+					background-image: url(/images/zulip.svg);
 					background-repeat: no-repeat;
 					background-size: 60px 60px;
 					background-position: center;
