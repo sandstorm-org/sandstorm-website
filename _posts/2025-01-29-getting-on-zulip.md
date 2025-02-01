@@ -16,7 +16,7 @@ A Little History
 
 The Sandstorm project started out on IRC. This was long before the community fork. It was originally on Freenode, and eventually moved over to Libera.Chat [as many others did](https://en.wikipedia.org/wiki/Libera_Chat).
 
-We eventually bridged our Libera.Chat room to Matrix, allowing IRC and Matrix users to interoperate. Then in 2023, Libera.Chat decided to shut down their Matrix IRC bridge. First temporarily, then permanently. You can see comments on this topic from [Matrix](https://matrix.org/blog/2024/07/deportalling-libera-chat/) and [Libera.Chat](https://libera.chat/news/matrix-bridge-disabled-retrospective).
+We eventually bridged our Libera.Chat room to Matrix, allowing IRC and Matrix users to interoperate. Then in 2023, Libera.Chat decided to shut down their Matrix IRC bridge. First temporarily, then permanently. You can see comments on this topic from [Matrix](https://matrix.org/blog/2023/07/deportalling-libera-chat/) and [Libera.Chat](https://libera.chat/news/matrix-bridge-disabled-retrospective).
 
 So now we had a split chat room, IRC and Matrix. By this time, most people had switched over to the Matrix side, which we decided to make the official one. It was still labeled as a sort of Libera.Chat "bridge to nowhere", but we didn't want to lose more people just to change our channel name. We did our best to let the few remaining IRC users know that the community moved over, though a handful people missed the message and stuck around.
 
