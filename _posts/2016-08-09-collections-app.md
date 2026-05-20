@@ -47,7 +47,7 @@ reference to retrieve metadata such as the grain's icon and the the name of the 
 grain. Crucially, it can also offer the reference to your collaborators, so that your single "Add
 grain" action can result in all of your collaborators receiving access to the grain.
 The behind-the-scenes details of how this all works can be found in our
-[technical documentation](https://docs.sandstorm.io/en/latest/developing/powerbox/).
+[technical documentation](https://docs.sandstorm.org/en/latest/developing/powerbox/).
 
 Other apps can use the powerbox in the same way. You could write an alternative implementation of
 collections, either by starting from scratch or by forking

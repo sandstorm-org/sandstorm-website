@@ -11,13 +11,13 @@ Since the early days of Sandstorm, we have offered the following mechanism for i
 
 As it turns out, a lot of people object to `curl|bash`. In fact, some people object *very strongly* to it, going so far as to scoff publicly at how obviously terrible it is and smugly proclaim that they dismissed our entire project when they saw this line. Usually, the loudest objectors claim that `curl|bash` is bad for security.
 
-[Sandstorm is a security product](https://docs.sandstorm.io/en/latest/developing/security-practices/), so we want to address that head-on.
+[Sandstorm is a security product](https://docs.sandstorm.org/en/latest/developing/security-practices/), so we want to address that head-on.
 
 ### The Bogus Argument: Code Execution
 
 I'll admit: `curl|bash` certainly _smells_ funny. To anyone with a basic understanding of Unix, the construction makes it really obvious: This command will give the named web site direct access to your system, with the ability to do anything that _you_ could do. This feels very wrong: We should be able to install software without giving the developers full access to our systems, right?
 
-We at Sandstorm would obviously be the first to agree that software you install should not be automatically fully trusted -- that's why [Sandstorm itself runs every app in a secure, isolated sandbox by default](https://docs.sandstorm.io/en/latest/developing/security-practices/#fine-grained-isolation). Unfortunately, however, traditional Unix software is always granted the full authority of the user who runs it. When you install software on Linux, no matter what package manager you use, you are giving that software permission to act as you. Most package managers will even execute scripts from the package at install time -- as root. So in reality, although `curl|bash` _looks_ scary, it's really just laying bare the reality that applies to every popular package manager out there: anything you install can pwn you.
+We at Sandstorm would obviously be the first to agree that software you install should not be automatically fully trusted -- that's why [Sandstorm itself runs every app in a secure, isolated sandbox by default](https://docs.sandstorm.org/en/latest/developing/security-practices/#fine-grained-isolation). Unfortunately, however, traditional Unix software is always granted the full authority of the user who runs it. When you install software on Linux, no matter what package manager you use, you are giving that software permission to act as you. Most package managers will even execute scripts from the package at install time -- as root. So in reality, although `curl|bash` _looks_ scary, it's really just laying bare the reality that applies to every popular package manager out there: anything you install can pwn you.
 
 If you wish to install Sandstorm -- or any software -- without giving it full access to your system, you must install it on a dedicated machine, VM, or (perhaps, with caveats) user account. In fact, we highly encourage you to do so, for defense in depth. But, we know it's more work than a lot of people want to deal with.
 
@@ -31,7 +31,7 @@ Various people argue, though, that this is not good enough, and that we should b
 
 In fact, I agree: where possible, we like to use two or more independent mechanisms of protecting against a security problem, so that when one breaks it's not a big deal. So, as of today, it is possible to verify the Sandstorm installer from the PGP keys of various Sandstorm developers by following our "PGP-verified install" instructions.
 
-<a class="linkbutton" href="https://docs.sandstorm.io/en/latest/install/#option-3-pgp-verified-install">Try PGP-verified Install »</a>
+<a class="linkbutton" href="https://docs.sandstorm.org/en/latest/install/#option-3-pgp-verified-install">Try PGP-verified Install »</a>
 
 That said, we do not think this issue quite warrants the visceral anger we've seen people express over `curl|bash`. Realistically, downloading and installing software while relying on HTTPS for integrity is a widely-used practice. The web sites for Firefox, Rust, Google Chrome, and many others offer an HTTPS download as the primary installation mechanism. It's even the standard way to install most Linux distros in the first place (by downloading an iso from the web site). Many popular package managers, such as npm, rely only on HTTPS for integrity. `curl|bash` over HTTPS is just as "secure" as any of these.
 

@@ -41,7 +41,7 @@ As a result of this change, the following has happened today:
 
 * We've written a new [contributing guide with a list of projects you can work on](https://github.com/sandstorm-io/sandstorm/blob/master/CONTRIBUTING.md). See if there's anything that interests you!
 
-* No changes are expected to [Sandstorm Oasis](https://oasis.sandstorm.io) nor [Sandcats.io](https://docs.sandstorm.io/en/latest/administering/sandcats/). Both services will continue to operate going forward.
+* No changes are expected to [Sandstorm Oasis](https://oasis.sandstorm.io) nor [Sandcats.io](https://docs.sandstorm.org/en/latest/administering/sandcats/). Both services will continue to operate going forward.
 
 **How you can help**
 

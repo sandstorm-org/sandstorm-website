@@ -6,7 +6,7 @@ authorUrl: https://github.com/paulproteus
 ---
 
 Today I want to share the results of our own [analysis of security issues of web apps available on
-the Sandstorm app market](https://docs.sandstorm.io/en/latest/using/security-non-events/).
+the Sandstorm app market](https://docs.sandstorm.org/en/latest/using/security-non-events/).
 
 ### 95% of security issues automatically mitigated, before they were discovered
 
@@ -14,7 +14,7 @@ Sandstorm automatically protects users from a huge fraction of the publicly disc
 vulnerabilities discovered in apps on the Sandstorm app market, before the vulnerabilities were even
 disclosed. Of the issues we examined, 95% were wholly or partly mitigated. You can read the [full
 report here in our
-documentation](https://docs.sandstorm.io/en/latest/using/security-non-events/). The analysis covers
+documentation](https://docs.sandstorm.org/en/latest/using/security-non-events/). The analysis covers
 publicly-disclosed vulnerabilities in Etherpad, WordPress, Roundcube, ShareLaTeX, and Tiny Tiny
 RSS. In WordPress, we limited our analysis to security issues of severity score 6 or higher, due to
 the large number of issues. We also mitigated 21 CVEs in the Linux kernel to prevent sandbox
@@ -40,7 +40,7 @@ day. That degree of isolation is enabled by our various [security
 practices](https://sandstorm.io/how-it-works).
 
 I hope you'll [read the full
-analysis](https://docs.sandstorm.io/en/latest/using/security-practices/), prepared by myself and
+analysis](https://docs.sandstorm.org/en/latest/using/security-practices/), prepared by myself and
 Kenton Varda. <a href="https://groups.io/g/sandstorm-user-group">Let us know</a> what
 you think!
 
