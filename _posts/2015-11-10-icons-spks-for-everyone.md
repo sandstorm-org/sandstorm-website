@@ -22,12 +22,12 @@ for Sandstorm: To support app authors, we are happy to help with graphics. This 
 
 ### One-click installers for everyone
 
-An app written **using Meteor** is the easiest to package -- there's a [special tutorial for Meteor apps](https://docs.sandstorm.io/en/latest/vagrant-spk/packaging-tutorial-meteor). If you input the URL of your GitHub repo below, we can even do a first-run of the packaging for you and ping you with a live demo featuring your own spk (Sandstorm package):
+An app written **using Meteor** is the easiest to package -- there's a [special tutorial for Meteor apps](https://docs.sandstorm.org/en/latest/vagrant-spk/packaging-tutorial-meteor). If you input the URL of your GitHub repo below, we can even do a first-run of the packaging for you and ping you with a live demo featuring your own spk (Sandstorm package):
 
 <iframe src="https://docs.google.com/a/corp.sandstorm.io/forms/d/1gj8h2rkeovWxtKP-8nTmouwLLxwEkh5iDNHudlckfE8/viewform?embedded=true" width="760" height="356" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-Meteor or not, any web app that runs on Linux can be packaged for Sandstorm. Get started with [this documentation link](https://docs.sandstorm.io/en/latest/vagrant-spk/packaging-tutorial).
+Meteor or not, any web app that runs on Linux can be packaged for Sandstorm. Get started with [this documentation link](https://docs.sandstorm.org/en/latest/vagrant-spk/packaging-tutorial).
 
-<a class="linkbutton" href="https://docs.sandstorm.io/en/latest/vagrant-spk/packaging-tutorial/">Packaging docs »</a>
+<a class="linkbutton" href="https://docs.sandstorm.org/en/latest/vagrant-spk/packaging-tutorial/">Packaging docs »</a>
 
 Drop a line to community@sandstorm.io with any questions and we'll make sure you succeed.

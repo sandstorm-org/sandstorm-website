@@ -10,12 +10,12 @@ Sandstorm is a great way to run open source collaborative productivity apps like
 
 <img style="float: right; width: 283px; height: 221px;" src="/images/business-ldap.png">
 
-[Sandstorm for Work](https://sandstorm.io/business) makes self-hosted Sandstorm easier to integrate into a corporate environment. That means you can:
+[Sandstorm for Work](https://sandstorm.org/business) makes self-hosted Sandstorm easier to integrate into a corporate environment. That means you can:
 
 * Integrate with LDAP (including Active Directory) or SAML for single-sign-on.
 * Manage user groups and domains as whole units rather than inviting each user individually.
 * Specify organization-wide access control policies, like "no sharing outside of the organization".
-* [And more...](https://sandstorm.io/business)
+* [And more...](https://sandstorm.org/business)
 
 We're in beta now, so not all features are ready yet, but once you've installed Sandstorm you'll automatically receive updates as they become available.
 
@@ -41,11 +41,11 @@ Annotate is just one of [54 apps and growing](https://apps.sandstorm.io) on our 
 
 Of course, if you want to run apps on your own infrastructure, behind your firewall, you need to think about security. A malicious app -- or a buggy app that gets hacked -- can compromise your whole network.
 
-Fortunately, Sandstorm protects you. Sandstorm is the only container engine that implements [fine-grained isolation](https://sandstorm.io/how-it-works), locking every document in its own container. By doing so, it prevents any app from compromising the server or network, and indeed [it renders 95% of app security vulnerabilities moot before they are even discovered](https://docs.sandstorm.io/en/latest/using/security-non-events/).
+Fortunately, Sandstorm protects you. Sandstorm is the only container engine that implements [fine-grained isolation](https://sandstorm.org/how-it-works), locking every document in its own container. By doing so, it prevents any app from compromising the server or network, and indeed [it renders 95% of app security vulnerabilities moot before they are even discovered](https://docs.sandstorm.org/en/latest/using/security-non-events/).
 
 ### Developing for Enterprise
 
-Are you a developer of a web app aimed at enterprise? Do you ever get requests for an on-prem version, but find it hard to fulfill this request given the myriad environments and infrastructure you'd need to support? Perhaps we can help. If you target Sandstorm, then these logistics become our job. If your app works on one Sandstorm server, it will work everywhere. If you are interested in learning more, [check out our developer features](https://sandstorm.io/developer) and [e-mail us](mailto:community@sandstorm.io).
+Are you a developer of a web app aimed at enterprise? Do you ever get requests for an on-prem version, but find it hard to fulfill this request given the myriad environments and infrastructure you'd need to support? Perhaps we can help. If you target Sandstorm, then these logistics become our job. If your app works on one Sandstorm server, it will work everywhere. If you are interested in learning more, [check out our developer features](https://sandstorm.org/developer) and [e-mail us](mailto:community@sandstorm.io).
 
 ### Is it Open Source?
 

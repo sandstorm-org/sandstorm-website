@@ -39,11 +39,11 @@ Today, that's possible with a few presses on a touchpad. Getting to that point i
 
 ### How to share an API token you cannot see
 
-One design goal of Sandstorm is that apps are **[confined.](https://docs.sandstorm.io/en/latest/using/security-practices/#true-confinement)** An app in Sandstorm never learns a URL that outsiders can use to reach it. That way, the app must rely on Sandstorm for access control, which means the "Share access" button can always show the users who has access. Sandstorm can provide one interface for granting and revoking access across all apps.
+One design goal of Sandstorm is that apps are **[confined.](https://docs.sandstorm.org/en/latest/using/security-practices/#true-confinement)** An app in Sandstorm never learns a URL that outsiders can use to reach it. That way, the app must rely on Sandstorm for access control, which means the "Share access" button can always show the users who has access. Sandstorm can provide one interface for granting and revoking access across all apps.
 
 However, Piwik needs a way to show a URL that a website operator can embed into their website, so that website visitors can be tracked by Piwik!
 
-To get past this Catch-22, [Drew Fisher](https://github.com/zarvox) built a new Sandstorm feature called [offer templates](https://docs.sandstorm.io/en/latest/developing/http-apis/#creating-an-offer-template). Piwik asks Sandstorm to show a templated message, and an IFRAME from Sandstorm appears with that token placed into the templated message. Drew's Piwik package was the first to use it, and it's become the most common way for apps on Sandstorm to create copy-pastable instructions for how to connect to their APIs.
+To get past this Catch-22, [Drew Fisher](https://github.com/zarvox) built a new Sandstorm feature called [offer templates](https://docs.sandstorm.org/en/latest/developing/http-apis/#creating-an-offer-template). Piwik asks Sandstorm to show a templated message, and an IFRAME from Sandstorm appears with that token placed into the templated message. Drew's Piwik package was the first to use it, and it's become the most common way for apps on Sandstorm to create copy-pastable instructions for how to connect to their APIs.
 
 ### When to make IP addresses available
 
@@ -53,12 +53,12 @@ Another obstacle was IP addresses. Piwik needs to know the IP address of visitor
 Normally, we strip the remote address from requests, since most applications shouldn't need it.  However, for those that benefit from it (like analytics), clients can opt into passing their IP on to the backend by adding an "X-Sandstorm-Passthrough: address" header to their request.  This would be a privacy leak for WebSession, since the grain can give the client scripts which would send the header, but ApiSession requires a user action, so it's safe here.
 </blockquote>
 
-In the context of the above, an ApiSession covers requests that come in via an app's [HTTP APIs](https://docs.sandstorm.io/en/latest/developing/http-apis/) such as Piwik's tracking system, and a WebSession covers requests that come in from the grain owner clicking around, such as a site owner viewing their statistics.
+In the context of the above, an ApiSession covers requests that come in via an app's [HTTP APIs](https://docs.sandstorm.org/en/latest/developing/http-apis/) such as Piwik's tracking system, and a WebSession covers requests that come in from the grain owner clicking around, such as a site owner viewing their statistics.
 
 ### Enabling the community
 
 When we finished, we had built a foundation that other apps could build upon. You can try [Hummingbird,](https://apps.sandstorm.io/app/4mfserfc04wtcevvgn0jw27hvwfntmt8j468y3ma55kj8d5tj9kh) [Michael Nutt](https://github.com/mnutt)'s real-time analytics tool, and [Radicale,](https://apps.sandstorm.io/app/8kr4rvyrggvzfvc160htzdt4u5rfvjc2dgdn27n5pt66mxa40m1h) [Aleksandr Bogdanov](https://github.com/synchrone)'s package that enables calendar and contact synchronization by combining a few tools.
 
-If you want to make an open source web app that anyone can self-host safely, start at the [Sandstorm Developer Hub](https://docs.sandstorm.io/en/latest/developing/). Sandstorm supports any programming language or stack, like PHP or Meteor or Rust, that runs on Linux. You'll find a [packaging tutorial](https://docs.sandstorm.io/en/latest/vagrant-spk/packaging-tutorial/) and detailed information about offer templates. And if you just want to start using Piwik, [check it out on the app market.](https://apps.sandstorm.io/app/xuajusd5d4a9v4js71ru0cwj9wn984q1x8kny10htsp8f5dcfep0)
+If you want to make an open source web app that anyone can self-host safely, start at the [Sandstorm Developer Hub](https://docs.sandstorm.org/en/latest/developing/). Sandstorm supports any programming language or stack, like PHP or Meteor or Rust, that runs on Linux. You'll find a [packaging tutorial](https://docs.sandstorm.org/en/latest/vagrant-spk/packaging-tutorial/) and detailed information about offer templates. And if you just want to start using Piwik, [check it out on the app market.](https://apps.sandstorm.io/app/xuajusd5d4a9v4js71ru0cwj9wn984q1x8kny10htsp8f5dcfep0)
 
-<p><a href="https://docs.sandstorm.io/en/latest/developing/" class="linkbutton">See Developer Hub »</a></p>
+<p><a href="https://docs.sandstorm.org/en/latest/developing/" class="linkbutton">See Developer Hub »</a></p>

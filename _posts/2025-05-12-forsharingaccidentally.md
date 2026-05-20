@@ -14,7 +14,7 @@ From time to time, when poking around our own project, we question the assumptio
 The problem
 -----------
 
-The issue in question is regarding Sandstorm's use of ["offer templates"](https://docs.sandstorm.io/en/latest/developing/http-apis/), which are a way for apps to distribute API keys to users, often to connect client apps. Offer templates are a text template defined by the app which specifies how an API key will be shown to a user. The template, with the API key inserted, is then displayed by Sandstorm in an iframe. This approach is intended to prevent Sandstorm apps from reading their own API keys.
+The issue in question is regarding Sandstorm's use of ["offer templates"](https://docs.sandstorm.org/en/latest/developing/http-apis/), which are a way for apps to distribute API keys to users, often to connect client apps. Offer templates are a text template defined by the app which specifies how an API key will be shown to a user. The template, with the API key inserted, is then displayed by Sandstorm in an iframe. This approach is intended to prevent Sandstorm apps from reading their own API keys.
 
 Offer templates are created by apps with some parameters. Sandstorm requires `rpcId` which identifies the template in case your app has multiple, and `template` which contains the actual template text. Several optional parameters are also available to describe the API key, style the template, and most critically set its authorization. `roleAssignment` restricts the key's permissions by tying it to an app-defined "role". `forSharing` determines whether the key meant to be given to someone *other than the user*, but what does this imply exactly?
 

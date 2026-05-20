@@ -53,11 +53,11 @@ On Sandstorm, these apps can integrate in ways that aren't possible when they ru
 
 ### Extended app library
 
-There are currently [61 apps and growing](https://apps.sandstorm.io) available on Sandstorm, and you can easily [make your own](https://docs.sandstorm.io/en/latest/developing/). Need to run surveys, create spreadsheets, make diagrams, take notes, typeset scholarly papers, host code, publish web pages, or run wikis? We have all that, and more.
+There are currently [61 apps and growing](https://apps.sandstorm.io) available on Sandstorm, and you can easily [make your own](https://docs.sandstorm.org/en/latest/developing/). Need to run surveys, create spreadsheets, make diagrams, take notes, typeset scholarly papers, host code, publish web pages, or run wikis? We have all that, and more.
 
 ### Unprecedented security
 
-Sandstorm is the only server platform that uses fine-grained containerization, which [protects you against security bugs in apps](https://docs.sandstorm.io/en/latest/using/security-non-events/), so you can safely let your users install the apps they need, relying on Sandstorm's automatic exploit mitigation and network isolation to keep data safe.
+Sandstorm is the only server platform that uses fine-grained containerization, which [protects you against security bugs in apps](https://docs.sandstorm.org/en/latest/using/security-non-events/), so you can safely let your users install the apps they need, relying on Sandstorm's automatic exploit mitigation and network isolation to keep data safe.
 
 ### Automatic updates
 

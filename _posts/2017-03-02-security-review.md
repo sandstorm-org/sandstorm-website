@@ -62,7 +62,7 @@ This is a problem if unprotected services are exposed to the Sandstorm server *a
 
 _(This was caught by Sandstorm core developer [David Renshaw](https://github.com/dwrensha), not by DevCore, but is fixed in the same release.)_
 
-A recent Linux kernel bug could allow a malicious app to cause a kernel panic or perhaps break out of its sandbox. The bug is in Linux, but Sandstorm aims to protect against such bugs via seccomp. [Historically, Sandstorm's sandbox has been very successful at blocking Linux vulnerabilities before they are discovered.](https://docs.sandstorm.io/en/latest/using/security-non-events/#linux-kernel) However, this one slipped through. On Sandstorm, the published PoC exploit for this bug only causes a kernel panic (not a sandbox breakout), but a developer with deep understanding of the bug and the Linux kernel might be able to create a successful attack in other ways.
+A recent Linux kernel bug could allow a malicious app to cause a kernel panic or perhaps break out of its sandbox. The bug is in Linux, but Sandstorm aims to protect against such bugs via seccomp. [Historically, Sandstorm's sandbox has been very successful at blocking Linux vulnerabilities before they are discovered.](https://docs.sandstorm.org/en/latest/using/security-non-events/#linux-kernel) However, this one slipped through. On Sandstorm, the published PoC exploit for this bug only causes a kernel panic (not a sandbox breakout), but a developer with deep understanding of the bug and the Linux kernel might be able to create a successful attack in other ways.
 
 **Severity:** High if you permit users you don't trust to install apps on your server, or commonly install apps from untrustworthy sources, and you do not keep your kernel up-to-date.
 

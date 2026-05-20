@@ -19,7 +19,7 @@ developers to build successful web apps](/news/2014-07-21-open-source-web-apps-r
 RethinkDB. He explained how
 the open source RethinkDB database makes real-time apps easy to build, and showed
 how to package RethinkDB apps for Sandstorm. He used the new Sandstorm packaging
-tool called [vagrant-spk](https://docs.sandstorm.io/en/latest/developing/).
+tool called [vagrant-spk](https://docs.sandstorm.org/en/latest/developing/).
 
 We then heard four lightning talks.
 

@@ -72,7 +72,7 @@ on libera.chat, and sign up for the [sandstorm-dev mailing list][8].
 [2]: /news/2017-10-28-i18n
 [3]: https://groups.google.com/d/msg/sandstorm-dev/cVPH014H2iY/8Em-dPDyBQAJ
 [4]: https://github.com/zenhack/hello-sandstorm-oauth
-[5]: https://docs.sandstorm.io/
+[5]: https://docs.sandstorm.org/
 [6]: https://github.com/sandstorm-io/vagrant-spk/issues/213
 [7]: https://github.com/sandstorm-io/vagrant-spk/
 [8]: https://groups.io/g/sandstorm-dev-group

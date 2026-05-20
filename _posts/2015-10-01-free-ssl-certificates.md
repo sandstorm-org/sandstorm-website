@@ -31,7 +31,7 @@ Over the past five years, web companies like [Google](http://googleblog.blogspot
 
 Providing automatic HTTPS is more than just a technical problem. To be trusted, the certificates must come from a Certificate Authority that is already trusted by your browser. To deliver certificates to you, we needed to work with such an authority.
 
-So, earlier this year, I began to talk to people at CAs. But there was a complication: Sandstorm [requires a wildcard certificate](https://docs.sandstorm.io/en/latest/administering/wildcard/) to achieve some of its security properties. That is, if your server is `example.sandcats.io`, all subdomains `*.example.sandcats.io` must be covered as well. Wildcard certificates are usually expensive -- an order of magnitude more so than normal certificates. And when I talked to the inspiring folks at [Let's Encrypt](https://letsencrypt.org/), I discovered that they weren't ready to issue wildcard certificates.
+So, earlier this year, I began to talk to people at CAs. But there was a complication: Sandstorm [requires a wildcard certificate](https://docs.sandstorm.org/en/latest/administering/wildcard/) to achieve some of its security properties. That is, if your server is `example.sandcats.io`, all subdomains `*.example.sandcats.io` must be covered as well. Wildcard certificates are usually expensive -- an order of magnitude more so than normal certificates. And when I talked to the inspiring folks at [Let's Encrypt](https://letsencrypt.org/), I discovered that they weren't ready to issue wildcard certificates.
 
 I was lucky enough to find Michael Trotta at [GlobalSign](https://www.globalsign.com/). He believed in our mission of making servers safe and easy for more people to run. Working together, we were able to set up a deal allowing us to offer free wildcard certificates under sandcats.io. Contracts were signed, and then it was time to write some code.
 
@@ -53,4 +53,4 @@ Because Sandstorm handles HTTPS, rather than the app or the system administrator
 
 So take a moment and [install Sandstorm now](https://sandstorm.io/install/) to securely enjoy these kinds of apps, or at least [try the online demo](https://demo.sandstorm.io).
 
-And if you already have a Sandcats-enabled install of Sandstorm from before today, check out the [documentation](https://docs.sandstorm.io/en/latest/administering/ssl/) to enable HTTPS!
+And if you already have a Sandcats-enabled install of Sandstorm from before today, check out the [documentation](https://docs.sandstorm.org/en/latest/administering/ssl/) to enable HTTPS!
