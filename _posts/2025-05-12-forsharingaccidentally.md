@@ -38,9 +38,9 @@ Additionally, the RMM app I am developing, [XRF Sync](https://apps.sandstorm.io/
 Remediation and recommendations
 -------------------------------
 
-We've patched Sandstorm Error Collector and XRF Sync. We've also developed a fix for Hummingbird, but the author has not yet been reached to assist with publishing.
+We've patched all three vulnerable applications. (This section has been updated since initial publishing.)
 
-**Suggested actions for users**: If you use Sandstorm Error Collector or XRF Sync and are concerned about access to the grain, you should update your app(s), revoke your API tokens in the "webkey" menu, and create new tokens for your use. If you use Hummingbird, we can only recommend that you revoke all API tokens and stop using the app for now.
+**Suggested actions for users**: If you use these apps and are concerned about access to the grain, you should update your app(s), revoke your API tokens in the "webkey" menu, and create new tokens for your use.
 
 We will update Sandstorm's documentation to highlight that an API token can always be used to access the grain UI in the form of a sharing URL.
 
