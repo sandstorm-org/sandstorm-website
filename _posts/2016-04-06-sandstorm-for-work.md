@@ -6,7 +6,7 @@ authorUrl: https://github.com/kentonv
 imageUrl: https://sandstorm.org/news/images/sfw.png
 ---
 
-Sandstorm is a great way to run open source collaborative productivity apps like document editors, task managers, chat rooms, file sharing, and more (54 apps and growing), all in one place. Lots of people -- including us -- use Sandstorm every day as part of doing their jobs. For example, right now I am composing this blog post in [Dillinger](https://apps.sandstorm.io/app/fq057t4ek3yt96xsfje6c1wv61pkjkqm9hs1539x4jqxjwzdp7fh) running on [Sandstorm Oasis](https://oasis.sandstorm.io) (our hosting service), but many people choose to self-host Sandstorm on their own machines.
+Sandstorm is a great way to run open source collaborative productivity apps like document editors, task managers, chat rooms, file sharing, and more (54 apps and growing), all in one place. Lots of people -- including us -- use Sandstorm every day as part of doing their jobs. For example, right now I am composing this blog post in [Dillinger](https://apps.sandstorm.org/app/fq057t4ek3yt96xsfje6c1wv61pkjkqm9hs1539x4jqxjwzdp7fh) running on [Sandstorm Oasis](https://oasis.sandstorm.io) (our hosting service), but many people choose to self-host Sandstorm on their own machines.
 
 <img style="float: right; width: 283px; height: 221px;" src="/images/business-ldap.png">
 
@@ -21,19 +21,19 @@ We're in beta now, so not all features are ready yet, but once you've installed 
 
 To get started now, install Sandstorm and choose "Sandstorm for Work" during setup (or if you already have a server, look for the "for Work" tab in the admin settings). Sandstorm for Work is priced at $15/user/month, and currently we're offering a 90-day free trial. (It's still open source! More on that in a bit.)
 
-<a href="https://sandstorm.io/install" class="linkbutton">Install Sandstorm »</a>
+<a href="https://sandstorm.org/install" class="linkbutton">Install Sandstorm »</a>
 
 ### Productivity Apps Large and Small
 
-With Sandstorm for Work, you can run apps similar to popular SaaS products, but keep your data in-house. For example, you can run [Etherpad](https://apps.sandstorm.io/app/h37dm17aa89yrd8zuqpdn36p6zntumtv08fjpu8a8zrte7q1cn60) and [EtherCalc](https://apps.sandstorm.io/app/a0n6hwm32zjsrzes8gnjg734dh6jwt7x83xdgytspe761pe2asw0) instead of Google Docs, [Wekan](https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h) instead of Trello, [Rocket.Chat](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0) instead of Slack, and [Davros](https://apps.sandstorm.io/app/8aspz4sfjnp8u89000mh2v1xrdyx97ytn8hq71mdzv4p4d8n0n3h) instead of Dropbox. Once you have Sandstorm running, you can install each new app with a click -- no need to create a new account on a new service, and no worry about whether that service is sufficiently private and secure. With Sandstorm, running apps in-house is actually **easier** than using SaaS.
+With Sandstorm for Work, you can run apps similar to popular SaaS products, but keep your data in-house. For example, you can run [Etherpad](https://apps.sandstorm.org/app/h37dm17aa89yrd8zuqpdn36p6zntumtv08fjpu8a8zrte7q1cn60) and [EtherCalc](https://apps.sandstorm.org/app/a0n6hwm32zjsrzes8gnjg734dh6jwt7x83xdgytspe761pe2asw0) instead of Google Docs, [Wekan](https://apps.sandstorm.org/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h) instead of Trello, [Rocket.Chat](https://apps.sandstorm.org/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0) instead of Slack, and [Davros](https://apps.sandstorm.org/app/8aspz4sfjnp8u89000mh2v1xrdyx97ytn8hq71mdzv4p4d8n0n3h) instead of Dropbox. Once you have Sandstorm running, you can install each new app with a click -- no need to create a new account on a new service, and no worry about whether that service is sufficiently private and secure. With Sandstorm, running apps in-house is actually **easier** than using SaaS.
 
-But even more interestingly, you can run apps on Sandstorm that aren't available anywhere else, like Simon Vansintjan's [Annotate](https://apps.sandstorm.io/app/c6zfftftrra9d4pdyuc1psew65ukqrjujvk20fac4zke1uasxv10). The idea behind Annotate is simple: upload an image, then annotate it with comments. We at Sandstorm use it to discuss UI and illustration mockups. Here's me using it to comment on a slide deck we're working on:
+But even more interestingly, you can run apps on Sandstorm that aren't available anywhere else, like Simon Vansintjan's [Annotate](https://apps.sandstorm.org/app/c6zfftftrra9d4pdyuc1psew65ukqrjujvk20fac4zke1uasxv10). The idea behind Annotate is simple: upload an image, then annotate it with comments. We at Sandstorm use it to discuss UI and illustration mockups. Here's me using it to comment on a slide deck we're working on:
 
 <p style="max-width: 500px; margin: 1em auto;"><a href="/news/images/annotate.png"><img src="/news/images/annotate-small.png"></a></p>
 
 What I love about Annotate is its simplicity: Simon wrote the whole thing in a couple weekends. And yet, it's enough to be useful to design teams anywhere. No matter what Simon decides to do in the future, this app will never disappear, and you don't have to trust Simon because your data stays on your server.
 
-Annotate is just one of [54 apps and growing](https://apps.sandstorm.io) on our app market. By installing Sandstorm at your workplace, you get access to all of these at once, under a single login, and without giving up control of your data.
+Annotate is just one of [54 apps and growing](https://apps.sandstorm.org) on our app market. By installing Sandstorm at your workplace, you get access to all of these at once, under a single login, and without giving up control of your data.
 
 ### Security Behind the Firewall
 

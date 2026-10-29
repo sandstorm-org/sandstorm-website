@@ -5,7 +5,7 @@ author: Daniel Krol
 authorUrl: https://github.com/orblivion
 ---
 
-*Hi, my name is [Dan](https://danielkrol.com). This is my first time posting on the Sandstorm blog. I got involved with Sandstorm almost a decade ago. I imagined a day when open data would be easily deployed via Sandstorm onto a mesh network (a lofty goal, I know), so I [created a package](https://apps.sandstorm.io/app/5uh349d0kky2zp5whrh2znahn27gwha876xze3864n0fu9e5220h) for an existing application called [Kiwix](https://kiwix.org) for easy hosting of sites like Wikipedia.*
+*Hi, my name is [Dan](https://danielkrol.com). This is my first time posting on the Sandstorm blog. I got involved with Sandstorm almost a decade ago. I imagined a day when open data would be easily deployed via Sandstorm onto a mesh network (a lofty goal, I know), so I [created a package](https://apps.sandstorm.org/app/5uh349d0kky2zp5whrh2znahn27gwha876xze3864n0fu9e5220h) for an existing application called [Kiwix](https://kiwix.org) for easy hosting of sites like Wikipedia.*
 
 *I still have this vision in mind. Today, I'm announcing the result of a more ambitious effort.*
 
@@ -14,7 +14,7 @@ Introducing Desert Atlas
 
 Sandstorm, meet [OpenStreetMap](https://openstreetmap.org). OpenStreetMap, meet Sandstorm.
 
-[Desert Atlas](https://apps.sandstorm.io/app/e5eaqnrqfrhgax1awtgw9uqayg42kcen2gkpynjs3j5mww7w3rp0) is the world map for Sandstorm. With Desert Atlas, you can privately collaborate with friends to search for destinations and save them as bookmarks for use on the go.
+[Desert Atlas](https://apps.sandstorm.org/app/e5eaqnrqfrhgax1awtgw9uqayg42kcen2gkpynjs3j5mww7w3rp0) is the world map for Sandstorm. With Desert Atlas, you can privately collaborate with friends to search for destinations and save them as bookmarks for use on the go.
 
 [<img src="/logos/app-demo-buttons/tryitnow-purp1.png" alt="Try It Now!" title="" width="400px" />](https://demo.sandstorm.io/appdemo/e5eaqnrqfrhgax1awtgw9uqayg42kcen2gkpynjs3j5mww7w3rp0)
 

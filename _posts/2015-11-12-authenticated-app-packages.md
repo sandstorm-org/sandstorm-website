@@ -16,7 +16,7 @@ information must be easy to consume and verify.
 To that end, I've worked with Kenton to make it possible to provide a cryptographic chain of trust
 that connects the app package you're installing to the app publisher's online
 accounts.  When you install the
-[EtherCalc spreadsheet app](https://apps.sandstorm.io/app/a0n6hwm32zjsrzes8gnjg734dh6jwt7x83xdgytspe761pe2asw0),
+[EtherCalc spreadsheet app](https://apps.sandstorm.org/app/a0n6hwm32zjsrzes8gnjg734dh6jwt7x83xdgytspe761pe2asw0),
 Sandstorm lets you see that the app was made by the same Audrey Tang that owns
 [audreyt on Github](https://github.com/audreyt) and
 [au on Keybase](https://keybase.io/au).
@@ -41,7 +41,7 @@ app, only the same app author can provide updates to it.
 
 ### Connect the app ID to a PGP key
 
-Since the release of the [app market](https://apps.sandstorm.io/),
+Since the release of the [app market](https://apps.sandstorm.org/),
 app packagers have been PGP-signing statements that they are the author of the
 Sandstorm app with that app ID, and include that statement, their PGP public 
 key, and the email address associated with that key in their package's metadata.
@@ -87,5 +87,5 @@ creators' social identities, with cryptographic verification at each step along
 the way, with no additional action needed by end users.  This is software
 authenticity that Just Works, and it's available today for all Sandstorm users
 and packages in the App Market.  Today is a good day to
-[install Sandstorm on your own server](https://sandstorm.io/install/) or sign up
+[install Sandstorm on your own server](/install) or sign up
 for our [managed hosting](/news/2015-08-31-oasis-beta-launch.html).

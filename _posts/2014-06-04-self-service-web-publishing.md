@@ -14,7 +14,7 @@ Users of alpha.sandstorm.io actually had to ask me to manually set things up.
 But as of build 0.20, you can host your site in a completely self-service way.
 
 To try it out, install the latest version of Hacker CMS from the
-[app list](https://apps.sandstorm.io) and click the "Setup DNS" button. (If you
+[app list](https://apps.sandstorm.org) and click the "Setup DNS" button. (If you
 already have the app installed, install it again to get the latest version;
 we're still working on automatic updates.)
 
@@ -23,7 +23,7 @@ of some better-known blogging platforms. That said, our own blog at
 blog.sandstorm.io is actually hosted using Hacker CMS.
 
 Want to write your own app that does web publishing? Check out
-[the wiki page](https://github.com/kentonv/sandstorm/wiki/Publishing-to-the-user's-domain)
+[the docs](https://docs.sandstorm.org/en/latest/developing/web-publishing/)
 to see how.
 
 ### Tool Improvements

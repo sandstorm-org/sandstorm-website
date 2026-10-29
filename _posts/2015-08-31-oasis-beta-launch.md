@@ -5,9 +5,9 @@ author: Kenton Varda
 authorUrl: https://github.com/kentonv
 ---
 
-<a href="https://apps.sandstorm.io"><img src="/news/images/newui.png" width="600"></a>
+<a href="https://apps.sandstorm.org"><img src="/news/images/newui.png" width="600"></a>
 
-<a class="linkbutton" href="https://apps.sandstorm.io">Try The App Market Now &#187;</a>
+<a class="linkbutton" href="https://apps.sandstorm.org">Try The App Market Now &#187;</a>
 
 As you know, Sandstorm's mission is [to bring open source and indie web apps to a wider audience](/news/2014-07-21-open-source-web-apps-require-federated-hosting.html). To run open source web apps, you need your own server -- the developers aren't a big corporation with resources to run servers for you. And for everyone to run open source web apps, _everyone_ needs control of their own server. That means that running your own server and installing apps on it needs to be so easy that everyone can do it. Most people do not have the time or expertise to edit config files or use SSH, so we need to eliminate the need. Installing apps on Sandstorm needs to be as easy as installing them on your phone -- and it needs to be [secure by default](https://docs.sandstorm.org/en/latest/developing/security-practices/).
 
@@ -15,7 +15,7 @@ We've made a lot of progress on these fronts -- [try our online demo](https://de
 
 ## Managed Hosting
 
-Sandstorm Oasis is a managed hosting service for Sandstorm. For $6/mo. (but free during the beta), we will give you a web-accessible Sandstorm server on which you can install any apps you want. Choose from the apps on our [app market](https://apps.sandstorm.io) or package and upload your own. Or better yet, package your apps and submit them to the app market for everyone to use.
+Sandstorm Oasis is a managed hosting service for Sandstorm. For $6/mo. (but free during the beta), we will give you a web-accessible Sandstorm server on which you can install any apps you want. Choose from the apps on our [app market](https://apps.sandstorm.org) or package and upload your own. Or better yet, package your apps and submit them to the app market for everyone to use.
 
 When paying $6/mo for Oasis, you get a much better experience than you would installing Sandstorm on a $6/mo virtual machine elsewhere. In addition to the ease of use, Oasis knows how to give your apps resources when you are actually using them while not wasting any resources when you aren't. In contrast, a personal VM will typically reserve a constant amount of RAM for the entire month while sitting idle most of the time. This means that on Oasis, you get the effect of having a server with many times more RAM for the same price.
 
@@ -23,13 +23,13 @@ Some might ask: Doesn't managed hosting go against Sandstorm's goal of decentral
 
 ## Updates for Self-hosters
 
-Today's launch includes a HUGE update to our user interface. So much has changed that it would be futile to try to describe it; you should [just try it](https://demo.sandstorm.io). We have, of course, pushed all these changes to our self-hosted users too. Some of you have even been following our [Github repo](https://github.com/sandstorm-io/sandstorm) and IRC and helping us test these features early -- thanks! For everyone else, run `sudo sandstorm update` to update now, or wait for the auto-update by the end of today. Don't have a server yet? [Install Sandstorm on Linux now &#187;](https://sandstorm.io/install)
+Today's launch includes a HUGE update to our user interface. So much has changed that it would be futile to try to describe it; you should [just try it](https://demo.sandstorm.io). We have, of course, pushed all these changes to our self-hosted users too. Some of you have even been following our [Github repo](https://github.com/sandstorm-io/sandstorm) and IRC and helping us test these features early -- thanks! For everyone else, run `sudo sandstorm update` to update now, or wait for the auto-update by the end of today. Don't have a server yet? [Install Sandstorm on Linux now &#187;](/install)
 
 ## Also New: The App Market
 
-Along with today's launch, we have deployed our new [App Market](https://apps.sandstorm.io), full of Free and Open Source apps, to replace our old ad-hoc app list. You can now browse apps more easily, complete with ratings and reviews. More importantly, submitting your own apps is now more streamlined: you can upload your package directly from the command-line using the `spk publish` command.
+Along with today's launch, we have deployed our new [App Market](https://apps.sandstorm.org), full of Free and Open Source apps, to replace our old ad-hoc app list. You can now browse apps more easily, complete with ratings and reviews. More importantly, submitting your own apps is now more streamlined: you can upload your package directly from the command-line using the `spk publish` command.
 
-<a href="https://apps.sandstorm.io"><img src="/news/images/market.png" width="600"></a>
+<a href="https://apps.sandstorm.org"><img src="/news/images/market.png" width="600"></a>
 
 ## Our Terms and Privacy Policy
 

@@ -32,4 +32,4 @@ In his talk Richard emphasized the value of free and open source software, he sh
 
 As a follow-up to his talk, Richard has also recently announced [x-gui](http://rchrd.net/x-gui/), a library of web components for building consistent web apps.
 
-[Try out TextEditor](https://apps.sandstorm.io/app/n4n49dkfyskmhcmg5h0mfzk4kjvce2jcs8ravr7y7uw9xs2pzghh) for yourself and don't forget to leave a review!
+[Try out TextEditor](https://apps.sandstorm.org/app/n4n49dkfyskmhcmg5h0mfzk4kjvce2jcs8ravr7y7uw9xs2pzghh) for yourself and don't forget to leave a review!

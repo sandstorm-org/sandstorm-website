@@ -37,7 +37,7 @@ With Sandstorm, you get an experience as easy to use as software-as-a-service, a
 privacy benefits of self-hosting. One of our key security strategies is to isolate each grain
 (typically, one document) separately, so that a buggy or malicious app has a hard time ruining your
 day. That degree of isolation is enabled by our various [security
-practices](https://sandstorm.io/how-it-works).
+practices](/how-it-works).
 
 I hope you'll [read the full
 analysis](https://docs.sandstorm.org/en/latest/using/security-practices/), prepared by myself and
@@ -50,18 +50,18 @@ Security enables freedom of choice. If you use a Sandstorm server, you can choos
 that fit your needs, even if the server is maintained by someone else.
 
 Want to chat with colleagues? Install
-[Rocket.Chat](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0) or
+[Rocket.Chat](https://apps.sandstorm.org/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0) or
 [Let's
-Chat](https://apps.sandstorm.io/app/qkgkaxfqhgsff8zgx2f4nf1a8xvmpte6wa19egmfkk06mzt7e8dh). Want to
+Chat](https://apps.sandstorm.org/app/qkgkaxfqhgsff8zgx2f4nf1a8xvmpte6wa19egmfkk06mzt7e8dh). Want to
 track tasks and stay organized? Install
-[WeKan](https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h) or
+[WeKan](https://apps.sandstorm.org/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h) or
 [Simple
-Todos](https://apps.sandstorm.io/app/0dp7n6ehj8r5ttfc0fj0au6gxkuy1nhw2kx70wussfa1mqj8tf80). Want to
+Todos](https://apps.sandstorm.org/app/0dp7n6ehj8r5ttfc0fj0au6gxkuy1nhw2kx70wussfa1mqj8tf80). Want to
 organize a gift exchange? Install
-[Giftr](https://apps.sandstorm.io/app/tr3w5p7ajsf61nf2e6dkfv8tdjes0qsm5w6ew0frd4qwnacwur90). Want to
+[Giftr](https://apps.sandstorm.org/app/tr3w5p7ajsf61nf2e6dkfv8tdjes0qsm5w6ew0frd4qwnacwur90). Want to
 share files quickly with friends? Install
-[FileDrop](https://apps.sandstorm.io/app/nn7axgy3y8kvd0m1mtk3cwca34t916p5d7m4j1j2e874nuz3t8y0) or
-[Davros](https://apps.sandstorm.io/app/8aspz4sfjnp8u89000mh2v1xrdyx97ytn8hq71mdzv4p4d8n0n3h).
+[FileDrop](https://apps.sandstorm.org/app/nn7axgy3y8kvd0m1mtk3cwca34t916p5d7m4j1j2e874nuz3t8y0) or
+[Davros](https://apps.sandstorm.org/app/8aspz4sfjnp8u89000mh2v1xrdyx97ytn8hq71mdzv4p4d8n0n3h).
 
 If you prefer managed hosting, you can [make an account on Oasis](https://oasis.sandstorm.io/) and
 enjoy any of these apps or upload your own.
@@ -73,4 +73,4 @@ updates](/news/2015-09-24-is-curl-bash-insecure-pgp-verified-install) into
 self-hosted Sandstorm. As soon as someone installs Sandstorm for an organization, they can safely
 allow colleagues to choose their own tools. If you install Sandstorm for yourself, you can use the
 best indie web apps and let the platform handle security for you.  Get started on the [Sandstorm
-install page](https://sandstorm.io/install).
+install page](/install).

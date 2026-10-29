@@ -14,11 +14,11 @@ Open source web app developers build great apps. But sometimes, backend-minded d
 Lately, we've been running an experiment -- will app authors be interested in custom graphics, designed by Néna Nguyen at Sandstorm? So far, [the](https://github.com/audreyt/ethercalc/issues/236) [response](https://github.com/cem/dillinger-sandstorm/pull/2) [has](https://github.com/cem/nodebb-sandstorm/pull/1) [been](https://github.com/jacksingleton/hacker-slides/issues/28) [positive](https://github.com/strawlab/neuron-catalog/pull/36)!
 
 So I’m excited to announce we'll do this for everyone who packages their app
-for Sandstorm: To support app authors, we are happy to help with graphics. This is on top of the [one-click install](https://apps.sandstorm.io/) for your app that Sandstorm enables, which works just as well [in the cloud](https://oasis.sandstorm.io) as it does for [self-hosters](https://sandstorm.io/install) (see below). For instance, Néna will make an icon for you if you need it. Check out this awesome icon set that Néna made for Wekan (kanban board):
+for Sandstorm: To support app authors, we are happy to help with graphics. This is on top of the [one-click install](https://apps.sandstorm.org/) for your app that Sandstorm enables, which works just as well [in the cloud](https://oasis.sandstorm.io) as it does for [self-hosters](/install) (see below). For instance, Néna will make an icon for you if you need it. Check out this awesome icon set that Néna made for Wekan (kanban board):
 
-<a href="https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h"><img src="/news/images/wekan-icon-gallery.png" width="100%" alt="logos"></a>
+<a href="https://apps.sandstorm.org/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h"><img src="/news/images/wekan-icon-gallery.png" width="100%" alt="logos"></a>
 
-*Wekan (open source Trello alternative) icons in varying contexts. Check out [Wekan on the App Market »](https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h)*
+*Wekan (open source Trello alternative) icons in varying contexts. Check out [Wekan on the App Market »](https://apps.sandstorm.org/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h)*
 
 ### One-click installers for everyone
 

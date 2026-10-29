@@ -53,7 +53,7 @@ On Sandstorm, these apps can integrate in ways that aren't possible when they ru
 
 ### Extended app library
 
-There are currently [61 apps and growing](https://apps.sandstorm.io) available on Sandstorm, and you can easily [make your own](https://docs.sandstorm.org/en/latest/developing/). Need to run surveys, create spreadsheets, make diagrams, take notes, typeset scholarly papers, host code, publish web pages, or run wikis? We have all that, and more.
+There are currently [61 apps and growing](https://apps.sandstorm.org) available on Sandstorm, and you can easily [make your own](https://docs.sandstorm.org/en/latest/developing/). Need to run surveys, create spreadsheets, make diagrams, take notes, typeset scholarly papers, host code, publish web pages, or run wikis? We have all that, and more.
 
 ### Unprecedented security
 

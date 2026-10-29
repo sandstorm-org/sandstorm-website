@@ -5,15 +5,15 @@ author: Asheesh Laroia
 authorUrl: https://github.com/paulproteus
 ---
 
-***TL;DR:** If you [install Sandstorm](https://sandstorm.io/install/) and choose to use a subdomain of our dynamic DNS service sandcats.io, we'll automatically set you up with an HTTPS certificate from GlobalSign. The private key never leaves your machine and is automatically rotated every week.*
+***TL;DR:** If you [install Sandstorm](/install/) and choose to use a subdomain of our dynamic DNS service sandcats.io, we'll automatically set you up with an HTTPS certificate from GlobalSign. The private key never leaves your machine and is automatically rotated every week.*
 
-People who run their own servers often do it for privacy. Many of them use our open source Sandstorm software to easily run apps like [document editors](https://apps.sandstorm.io/app/h37dm17aa89yrd8zuqpdn36p6zntumtv08fjpu8a8zrte7q1cn60), [group chat apps](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0), [task management](https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h), and [more](https://apps.sandstorm.io). 
+People who run their own servers often do it for privacy. Many of them use our open source Sandstorm software to easily run apps like [document editors](https://apps.sandstorm.org/app/h37dm17aa89yrd8zuqpdn36p6zntumtv08fjpu8a8zrte7q1cn60), [group chat apps](https://apps.sandstorm.org/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0), [task management](https://apps.sandstorm.org/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h), and [more](https://apps.sandstorm.org). 
 
-But a private server is not really private if you're communicating with it in plaintext. So, starting today, if you [install Sandstorm](https://sandstorm.io/install/) on your own Linux server, and you choose to host at a subdomain of our free dynamic DNS service sandcats.io, you will have free, automatically-renewing HTTPS certificates by default. That means you get privacy on the network without any hassle.
+But a private server is not really private if you're communicating with it in plaintext. So, starting today, if you [install Sandstorm](/install/) on your own Linux server, and you choose to host at a subdomain of our free dynamic DNS service sandcats.io, you will have free, automatically-renewing HTTPS certificates by default. That means you get privacy on the network without any hassle.
 
 For companies and individuals who run their own Sandstorm servers, it's now easy to secure yourself with HTTPS. Here are the steps.
 
-1. Download and run the [Sandstorm install script](https://sandstorm.io/install/).
+1. Download and run the [Sandstorm install script](/install/).
 
 2. Choose a subdomain of `sandcats.io` you want to register (and tell us how to contact you to recover the domain).
 
@@ -49,8 +49,8 @@ To solve this, Sandcats issues certificates valid for only seven days. Your serv
 
 ### The result: Every Sandstorm app is secure for self-hosters
 
-Because Sandstorm handles HTTPS, rather than the app or the system administrator, the [Etherpad package](https://apps.sandstorm.io/app/h37dm17aa89yrd8zuqpdn36p6zntumtv08fjpu8a8zrte7q1cn60) in Sandstorm doesn't need to have any kind of special integration, nor does the [Rocket.Chat package](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0), nor does the [Brainstorm package](https://apps.sandstorm.io/app/sptx6z162fp1w8rwe92vc8tzm76v0mk0wwc9yafze2vpghjs48j0), nor any other.
+Because Sandstorm handles HTTPS, rather than the app or the system administrator, the [Etherpad package](https://apps.sandstorm.org/app/h37dm17aa89yrd8zuqpdn36p6zntumtv08fjpu8a8zrte7q1cn60) in Sandstorm doesn't need to have any kind of special integration, nor does the [Rocket.Chat package](https://apps.sandstorm.org/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0), nor does the [Brainstorm package](https://apps.sandstorm.org/app/sptx6z162fp1w8rwe92vc8tzm76v0mk0wwc9yafze2vpghjs48j0), nor any other.
 
-So take a moment and [install Sandstorm now](https://sandstorm.io/install/) to securely enjoy these kinds of apps, or at least [try the online demo](https://demo.sandstorm.io).
+So take a moment and [install Sandstorm now](/install/) to securely enjoy these kinds of apps, or at least [try the online demo](https://demo.sandstorm.io).
 
 And if you already have a Sandcats-enabled install of Sandstorm from before today, check out the [documentation](https://docs.sandstorm.org/en/latest/administering/ssl/) to enable HTTPS!

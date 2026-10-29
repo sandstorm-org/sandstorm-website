@@ -10,9 +10,9 @@ authorUrl: https://github.com/paulproteus
 Over the past year, the Sandstorm platform has grown new features to fit
 app developers' needs.
 For example, Sandstorm apps can now
-[send and receive email](https://github.com/sandstorm-io/sandstorm/wiki/Using-Email-From-Your-Sandstorm-App)
+[send and receive email](https://docs.sandstorm.org/en/latest/developing/email-from-apps/)
 and
-[export an HTTP API](https://github.com/sandstorm-io/sandstorm/wiki/Exporting-HTTP-APIs),
+[export an HTTP API](https://docs.sandstorm.org/en/latest/developing/http-apis/),
 enabling apps to [federate across sites](http://mediagoblin.org/pages/campaign.html)
 or communicate with a mobile app.
 
@@ -27,18 +27,13 @@ It mentions the tool that Kenton wrote last year --
 that makes porting apps for one framework as easy as running a few commands.
 More recently, David's experience maintaining apps like ShareLaTeX and GitLab
 resulted in a
-[collection of tips for porting Rails apps](https://github.com/sandstorm-io/sandstorm/wiki/Ruby-on-Rails).
+[collection of tips for porting Rails apps](https://docs.sandstorm.org/en/latest/developing/raw-ruby-on-rails/).
 
 I'm heartened to report that in addition to the platform and docs changes,
-there are
-three
-Sandstorm apps actively maintained by their authors: draw.io,
-EtherCalc, and LibreBoard. Those apps now appear
-at the top of the
-[Sandstorm app list](https://apps.sandstorm.io). In the long run,
-the best way
-for a Sandstorm
-port to stay up-to-date is for the
+there are three Sandstorm apps actively maintained by their authors: draw.io,
+EtherCalc, and LibreBoard. Those apps now appear at the top of the
+[Sandstorm app list](https://apps.sandstorm.org). In the long run,
+the best way for a Sandstorm port to stay up-to-date is for the
 app's own community to actively maintain the app on Sandstorm as well.
 
 ### App update week changelog

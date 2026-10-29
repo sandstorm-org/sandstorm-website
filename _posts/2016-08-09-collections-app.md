@@ -13,7 +13,7 @@ separately --- a task that could quickly become tedious. What if you want to sha
 project as a single unit?
 
 Now that we have released the
-[Collections app](https://apps.sandstorm.io/app/s3u2xgmqwznz2n3apf30sm3gw1d85y029enw5pymx734cnk5n78h),
+[Collections app](https://apps.sandstorm.org/app/s3u2xgmqwznz2n3apf30sm3gw1d85y029enw5pymx734cnk5n78h),
 we have a satisfying answer to that question; to share many grains at once, you add them to a collection.
 
 <img src="/news/images/collections-1.png"
@@ -55,7 +55,7 @@ collections, either by starting from scratch or by forking
 to do with collections can also benefit from the ability to request and offer grain references. For
 example, a chat room could be enhanced by the ability to embed Sandstorm-aware links to other
 grains. Indeed, the latest release of
-[Rocket.Chat](https://apps.sandstorm.io/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0) does just that.
+[Rocket.Chat](https://apps.sandstorm.org/app/vfnwptfn02ty21w715snyyczw0nqxkv3jvawcah10c6z7hj1hnu0) does just that.
 
 ### Built with Rust
 
@@ -75,4 +75,4 @@ Whether or not you are a developer, now is an exciting time to
 [get involved](/community)
 with Sandstorm. The powerbox is still in its early stages, and the
 Collections app is a hint at the kinds of things it will enable.
-So [try it out and let us know what you think](https://apps.sandstorm.io/app/s3u2xgmqwznz2n3apf30sm3gw1d85y029enw5pymx734cnk5n78h)!
+So [try it out and let us know what you think](https://apps.sandstorm.org/app/s3u2xgmqwznz2n3apf30sm3gw1d85y029enw5pymx734cnk5n78h)!

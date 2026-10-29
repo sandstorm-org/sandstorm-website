@@ -33,7 +33,7 @@ As a website operator, this puts you in a bind. If you want to use Google Analyt
 
 A different way to do web analytics is to use software running on a server that you maintain. This is called **self-hosting web analytics.**
 
-The easiest way to do that is to do what [Filippo Valsorda said:](https://blog.filippo.io/self-host-analytics) run a Sandstorm server and [install Piwik from the app market,](https://apps.sandstorm.io/app/xuajusd5d4a9v4js71ru0cwj9wn984q1x8kny10htsp8f5dcfep0) and copy-paste something into your website.
+The easiest way to do that is to do what [Filippo Valsorda said:](https://blog.filippo.io/self-host-analytics) run a Sandstorm server and [install Piwik from the app market,](https://apps.sandstorm.org/app/xuajusd5d4a9v4js71ru0cwj9wn984q1x8kny10htsp8f5dcfep0) and copy-paste something into your website.
 
 Today, that's possible with a few presses on a touchpad. Getting to that point involved some fascinating challenges.
 
@@ -57,8 +57,8 @@ In the context of the above, an ApiSession covers requests that come in via an a
 
 ### Enabling the community
 
-When we finished, we had built a foundation that other apps could build upon. You can try [Hummingbird,](https://apps.sandstorm.io/app/4mfserfc04wtcevvgn0jw27hvwfntmt8j468y3ma55kj8d5tj9kh) [Michael Nutt](https://github.com/mnutt)'s real-time analytics tool, and [Radicale,](https://apps.sandstorm.io/app/8kr4rvyrggvzfvc160htzdt4u5rfvjc2dgdn27n5pt66mxa40m1h) [Aleksandr Bogdanov](https://github.com/synchrone)'s package that enables calendar and contact synchronization by combining a few tools.
+When we finished, we had built a foundation that other apps could build upon. You can try [Hummingbird,](https://apps.sandstorm.org/app/4mfserfc04wtcevvgn0jw27hvwfntmt8j468y3ma55kj8d5tj9kh) [Michael Nutt](https://github.com/mnutt)'s real-time analytics tool, and [Radicale,](https://apps.sandstorm.org/app/8kr4rvyrggvzfvc160htzdt4u5rfvjc2dgdn27n5pt66mxa40m1h) [Aleksandr Bogdanov](https://github.com/synchrone)'s package that enables calendar and contact synchronization by combining a few tools.
 
-If you want to make an open source web app that anyone can self-host safely, start at the [Sandstorm Developer Hub](https://docs.sandstorm.org/en/latest/developing/). Sandstorm supports any programming language or stack, like PHP or Meteor or Rust, that runs on Linux. You'll find a [packaging tutorial](https://docs.sandstorm.org/en/latest/vagrant-spk/packaging-tutorial/) and detailed information about offer templates. And if you just want to start using Piwik, [check it out on the app market.](https://apps.sandstorm.io/app/xuajusd5d4a9v4js71ru0cwj9wn984q1x8kny10htsp8f5dcfep0)
+If you want to make an open source web app that anyone can self-host safely, start at the [Sandstorm Developer Hub](https://docs.sandstorm.org/en/latest/developing/). Sandstorm supports any programming language or stack, like PHP or Meteor or Rust, that runs on Linux. You'll find a [packaging tutorial](https://docs.sandstorm.org/en/latest/vagrant-spk/packaging-tutorial/) and detailed information about offer templates. And if you just want to start using Piwik, [check it out on the app market.](https://apps.sandstorm.org/app/xuajusd5d4a9v4js71ru0cwj9wn984q1x8kny10htsp8f5dcfep0)
 
 <p><a href="https://docs.sandstorm.org/en/latest/developing/" class="linkbutton">See Developer Hub »</a></p>
