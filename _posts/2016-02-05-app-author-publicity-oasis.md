@@ -7,20 +7,20 @@ authorUrl: https://github.com/paulproteus
 
 Every useful web app deserves users and publicity. Every author deserves an easy way to see their app the way their users see it on Sandstorm.
 
-So here's the deal: If you write an open source web app, and you package it for Sandstorm, I'll help people discover your app and use it. You'll also get credit toward one year of [**Oasis managed hosting**](https://oasis.sandstorm.io) so you can test your app on Sandstorm. The offer applies to anyone who successfully submits an app to the [Sandstorm App Market](https://apps.sandstorm.io), whether or not you're the original author. It doesn't have to be open source, though we do love open source. The Oasis hosting can be used for anything you like.
+So here's the deal: If you write an open source web app, and you package it for Sandstorm, I'll help people discover your app and use it. You'll also get credit toward one year of [**Oasis managed hosting**](https://oasis.sandstorm.io) so you can test your app on Sandstorm. The offer applies to anyone who successfully submits an app to the [Sandstorm App Market](https://apps.sandstorm.org), whether or not you're the original author. It doesn't have to be open source, though we do love open source. The Oasis hosting can be used for anything you like.
 
 
 ### A Sandstorm package allows people to use your app even if you don't maintain a public service
 
-When I asked <a href="http://simon.vansintjan.net/">Simon Vansintjan</a> why he made a Sandstorm package of his <a href="https://apps.sandstorm.io/app/wupmzqk4872vgsye9t9x5dmrdw17mad97dk21jvcm2ph4jataze0">Quick Survey</a> app, he told me, "I have no interest in running a SaaS of every small app that I think would be a benefit [to other people]."
+When I asked <a href="http://simon.vansintjan.net/">Simon Vansintjan</a> why he made a Sandstorm package of his <a href="https://apps.sandstorm.org/app/wupmzqk4872vgsye9t9x5dmrdw17mad97dk21jvcm2ph4jataze0">Quick Survey</a> app, he told me, "I have no interest in running a SaaS of every small app that I think would be a benefit [to other people]."
 
 Simon wants to publish code, not commit to maintaining a service. Simon wrote Quick Survey so he could run one particular survey, as well as for the joy of learning Meteor.
 
 By packaging his app for Sandstorm, he got multiple document support without writing any code. Simon said, "Once I understood that [multi-document] translated really well to how Sandstorm views apps / grains, I figured it made a lot of sense to port it to Sandstorm. I'm happy I ended up trying to port it, because it opened up how easy it would be to get other apps up and running with it."
 
-<p style="text-align: center;"><a href="https://apps.sandstorm.io/app/wupmzqk4872vgsye9t9x5dmrdw17mad97dk21jvcm2ph4jataze0"><img src="/news/images/2016-02-05-app-author-publicity-oasis/cbd94e8d81ed9bccaf19eb0228dbf451.png" style="max-width: 50%;"></a></p>
+<p style="text-align: center;"><a href="https://apps.sandstorm.org/app/wupmzqk4872vgsye9t9x5dmrdw17mad97dk21jvcm2ph4jataze0"><img src="/news/images/2016-02-05-app-author-publicity-oasis/cbd94e8d81ed9bccaf19eb0228dbf451.png" style="max-width: 50%;"></a></p>
 
-You can <a href="https://apps.sandstorm.io/app/wupmzqk4872vgsye9t9x5dmrdw17mad97dk21jvcm2ph4jataze0">try out Quick Survey with a click.</a> Your app could be that easy to spin up.
+You can <a href="https://apps.sandstorm.org/app/wupmzqk4872vgsye9t9x5dmrdw17mad97dk21jvcm2ph4jataze0">try out Quick Survey with a click.</a> Your app could be that easy to spin up.
 
 Quick Survey is a web app that isn't a business, and Sandstorm is perfect for apps like that. For example, <a href="https://twitter.com/frigginglorious">Daniel Kraft</a> is nearly done packaging up his personal D&D dice rolling app. What hobby apps have you made that others might enjoy?
 
@@ -54,9 +54,9 @@ I want self-hosting to be a meaningful alternative to software as a service. You
 
 ### See what users see, with a free Power User account on Oasis
 
-Your users probably don't know how to deploy your app, which is why they need Sandstorm. I want you to be able to see what your users see, so I'll give you [**a free year of Power User level on Oasis**](https://sandstorm.io/get) managed hosting if you write or package an app for Sandstorm.
+Your users probably don't know how to deploy your app, which is why they need Sandstorm. I want you to be able to see what your users see, so I'll give you [**a free year of Power User level on Oasis**](/get) managed hosting if you write or package an app for Sandstorm.
 
-While you're on Oasis, feel free to enjoy it for anything else within the usual terms and conditions. Take advantage of private git repositories with <a href="https://apps.sandstorm.io/app/d9ygf47xrtnw12j92cyt6cu8ut75esx01u4q3kcrn8415w9qzzgh">gogs</a>, project task tracking with <a href="https://apps.sandstorm.io/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h">Wekan</a>, or privacy-preserving web analytics with <a href="https://apps.sandstorm.io/app/xuajusd5d4a9v4js71ru0cwj9wn984q1x8kny10htsp8f5dcfep0">Piwik</a>. I'll also give you an invite to [Keybase](https://keybase.io) so when people install your apps, they can verify your identity via the world's most usable interface to PGP.
+While you're on Oasis, feel free to enjoy it for anything else within the usual terms and conditions. Take advantage of private git repositories with <a href="https://apps.sandstorm.org/app/d9ygf47xrtnw12j92cyt6cu8ut75esx01u4q3kcrn8415w9qzzgh">gogs</a>, project task tracking with <a href="https://apps.sandstorm.org/app/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h">Wekan</a>, or privacy-preserving web analytics with <a href="https://apps.sandstorm.org/app/xuajusd5d4a9v4js71ru0cwj9wn984q1x8kny10htsp8f5dcfep0">Piwik</a>. I'll also give you an invite to [Keybase](https://keybase.io) so when people install your apps, they can verify your identity via the world's most usable interface to PGP.
 
 To take advantage of this offer, visit [Oasis](https://oasis.sandstorm.io/) and upgrade to any paid plan, knowing that all the paid plans
 are free-of-cost while Sandstorm is in beta. Then email me at community@sandstorm.io to request a statement credit equal to the cost of a Power User account. We'll add it to your account, and you'll be all set.

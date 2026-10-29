@@ -9,7 +9,7 @@ Sandstorm is about making it easy to run a personal server. But we also offer [S
 
 Contradiction?
 
-Actually, no: Even if you run your own server, Oasis benefits you. Oasis is important because it makes it possible for anyone to use [Sandstorm's library of open source apps](https://apps.sandstorm.io), even if they really don't want to run their own server. A larger audience means that more and better apps will become available. Indeed, after we launched Oasis last year, the rate of new apps becoming available on Sandstorm spiked.
+Actually, no: Even if you run your own server, Oasis benefits you. Oasis is important because it makes it possible for anyone to use [Sandstorm's library of open source apps](https://apps.sandstorm.org), even if they really don't want to run their own server. A larger audience means that more and better apps will become available. Indeed, after we launched Oasis last year, the rate of new apps becoming available on Sandstorm spiked.
 
 That benefits self-hosters, because those same apps can be used on your private server, too.
 

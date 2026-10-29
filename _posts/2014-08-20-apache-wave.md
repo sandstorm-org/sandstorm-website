@@ -5,7 +5,7 @@ author: Kenton Varda
 authorUrl: https://github.com/kentonv
 ---
 
-In an unspeakable act of technical necromancy, we've revived what was once [Google Wave](http://wave.google.com) and placed it on the [Sandstorm app list](https://apps.sandstorm.io). You can install it now -- on your own Sandstorm server, or using [our demo](https://demo.sandstorm.io) -- and use it to... um... whatever it is that Wave is for. We're still trying to figure that out too. We're pretty sure it's amazing, though!
+In an unspeakable act of technical necromancy, we've revived what was once [Google Wave](http://wave.google.com) and placed it on the [Sandstorm app list](https://apps.sandstorm.org). You can install it now -- on your own Sandstorm server, or using [our demo](https://demo.sandstorm.io) -- and use it to... um... whatever it is that Wave is for. We're still trying to figure that out too. We're pretty sure it's amazing, though!
 
 OK, joking aside&#8230;
 

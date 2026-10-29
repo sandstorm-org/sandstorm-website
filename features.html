@@ -26,7 +26,7 @@ var appCount = "Dozens of";
   // TODO: Maybe update app index to export the count at a separate URL? Note that
   //   the CORS hack in Sandstorm core would need updating too.
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "https://app-index.sandstorm.io/apps/index.json", false);
+  xhr.open("GET", "https://apps.sandstorm.org/apps/index.json", false);
   xhr.send(null);
 
   if (xhr.status === 200) {
@@ -44,7 +44,7 @@ var appCount = "Dozens of";
       <li class="apps-growing">
         <h3><strong><script type="text/javascript">document.write(appCount)</script> apps and growing</strong></h3>
         <p>New apps are being added to the Sandstorm App Market every week covering a wide range of use cases.
-        <p>We have apps for document editing, chat, task management, file storage, email, music playing, code hosting, forums, games, and more. Check them out on the <a href="https://apps.sandstorm.io/">Sandstorm App Market</a>.
+        <p>We have apps for document editing, chat, task management, file storage, email, music playing, code hosting, forums, games, and more. Check them out on the <a href="https://apps.sandstorm.org/">Sandstorm App Market</a>.
 
       <li class="single-sign-on">
         <h3><strong>Single Sign-on</strong></h3>

@@ -15,13 +15,13 @@ from other people's servers was followed by an invitation to use ours.  To
 clear the air a bit, we've now made it ridiculously easy to install your own
 Sandstorm server on your very own Linux machine:
 
-    curl https://install.sandstorm.io | bash
+    curl https://install.sandstorm.org | bash
 
 Follow the on-screen directions and you'll be up and running in seconds.  No
 need to build code nor edit config files.  In fact, your Sandstorm installation
 will even (if you choose) automatically keep itself updated, so you never
 have to deal with it again.  (Of course, you can still get the
-[full source code on Github](https://github.com/kentonv/sandstorm) if you prefer.)
+[full source code on Github](https://github.com/sandstorm-io/sandstorm) if you prefer.)
 
 Of course, not everybody has a Linux server lying around, or wants their cloud
 apps hosted off their home internet connection, or wants to pay the typical
@@ -74,7 +74,7 @@ Some awesome contributors have written/ported a few new Sandstorm apps:
   I tried is looking pretty good.
 
 Install these and other apps to your Sandstorm instance from
-[the app list](https://apps.sandstorm.io).
+[the app list](https://apps.sandstorm.org).
 
 Porting apps is still a somewhat weird and ad hoc process. Usually the code
 doesn't need to change much, but figuring out the app's dependencies for
